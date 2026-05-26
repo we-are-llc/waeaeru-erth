@@ -1750,7 +1750,12 @@
   /* ARTICLES_DATA が読み込まれていれば属性を付与、なければ DOM から推定 */
   if (typeof ARTICLES_DATA !== "undefined") {
     ARTICLES_DATA.forEach(function (art) {
-      var link = grid.querySelector('a[href="' + art.url + '"]');
+      /* Netlify の Pretty URL 機能が href="article-01.html" を
+         href="/article-01" に書き換えるため、両形式に対応したセレクタを使用 */
+      var slug = art.url.replace(/\.html$/, ""); /* "article-01" */
+      var link = grid.querySelector(
+        'a[href="' + art.url + '"], a[href="/' + slug + '"], a[href$="/' + slug + '"], a[href="' + slug + '"]'
+      );
       if (!link) return;
       var card = link.closest(".article-card");
       if (!card) return;

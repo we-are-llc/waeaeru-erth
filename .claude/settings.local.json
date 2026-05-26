@@ -3,7 +3,18 @@
     "allow": [
       "WebSearch",
       "Bash(powershell -command \"Get-Content 'C:\\\\work_local\\\\笑える地球\\\\index.html' | Measure-Object -Line\")",
-      "Bash(Sort-Object Name)"
+      "Bash(Sort-Object Name)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "WebFetch(domain:waraeru-earth.we-re.net)",
+      "Bash(node --check articles-data.js)",
+      "Bash(node -e ' *)",
+      "Bash(curl -sI \"https://waraeru-earth.we-re.net/\")",
+      "Bash(curl -s \"https://waraeru-earth.we-re.net/index.html\" -o /tmp/deployed-index.html)",
+      "Read(//tmp/**)",
+      "Bash(sed -n '155,170p' /tmp/deployed-index.html)",
+      "Bash(sed -n '160,166p' \"C:/work_local/笑える地球/index.html\")",
+      "Bash(node --check \"/mnt/c/work_local/笑える地球/seo.js\")",
+      "Bash(node --check \"C:\\\\\\\\work_local\\\\\\\\笑える地球\\\\\\\\seo.js\")"
     ]
   }
 }

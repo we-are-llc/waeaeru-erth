@@ -14,6 +14,10 @@
 
   /* ── ページ特定 ── */
   var filename = location.pathname.split("/").pop() || "index.html";
+  /* Netlify の Pretty URL が /article-01 → .html 無し に変換するため正規化 */
+  if (filename && !filename.includes(".")) {
+    filename = filename + ".html";
+  }
   var article =
     typeof getArticleByFilename === "function"
       ? getArticleByFilename(filename)
