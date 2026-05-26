@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# サイトマップ（本番ドメインに変更してください）
+Sitemap: https://laughingearth.example.com/sitemap.xml

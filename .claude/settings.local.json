@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(powershell -command \"Get-Content 'C:\\\\work_local\\\\笑える地球\\\\index.html' | Measure-Object -Line\")"
+    ]
+  }
+}

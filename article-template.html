@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+  ╔══════════════════════════════════════════════════════════════════╗
+  ║  笑える地球 — 記事ページ テンプレート                             ║
+  ║                                                                  ║
+  ║  使い方:                                                          ║
+  ║  1. このファイルを article-NN.html という名前でコピーする         ║
+  ║  2. [PLACEHOLDER] と書かれた箇所をすべて置き換える               ║
+  ║  3. articles-data.js に新しいエントリを追加する                   ║
+  ║  4. index.html に新しい <article> カードを追加する                ║
+  ║  5. sitemap.xml に新しい <url> エントリを追加する                 ║
+  ╚══════════════════════════════════════════════════════════════════╝
+-->
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ▼ ページタイトル: 記事タイトル（短縮版） + サイト名 -->
+  <title>[記事タイトル短縮版] | 笑える地球</title>
+
+  <!-- ▼ SEOディスクリプション: articles-data.js の description フィールドと揃える (155文字以内) -->
+  <meta name="description" content="[SEO用の説明文。155文字以内。記事の要点を端的に。]">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- SEO スクリプト（articles-data.js の後に読み込む） -->
+  <script src="articles-data.js"></script>
+  <script src="seo.js"></script>
+</head>
+<body>
+
+<!-- ===== サイトヘッダー（変更不要） ===== -->
+<header class="site-header">
+  <h1>🌍 笑える地球</h1>
+  <p class="tagline">世界の片隅から届く、脱力系ローカルニュース</p>
+</header>
+<nav class="site-nav">
+  <a href="index.html">🏠 ホーム</a>
+  <a href="#">🌍 アフリカ</a><a href="#">🌎 中南米</a><a href="#">🌊 太平洋</a><a href="#">🌴 カリブ海</a>
+</nav>
+
+<!-- ===== 記事ヘッダー ===== -->
+<div class="article-header">
+  <!-- ▼ 国旗絵文字 -->
+  <span class="article-flag">[🇺🇳]</span>
+
+  <!-- ▼ 国・地域名（例: コロンビア・アンティオキア州） -->
+  <div class="article-location">[国名・地域名]</div>
+
+  <!-- ▼ 日付（例: 📅 2021年3月） -->
+  <span class="article-date">📅 [掲載年月]</span>
+
+  <!-- ▼ 記事タイトル（フル版。長くてOK） -->
+  <h1 class="article-title">[記事タイトル（フル版）——サブタイトルや補足を含めた完全版]</h1>
+</div>
+
+<!-- ===== 記事本文エリア ===== -->
+<div class="article-body">
+  <a href="index.html" class="back-link">← 記事一覧に戻る</a>
+
+  <!-- ===== SVGイラスト ===== -->
+  <!--
+    推奨サイズ: viewBox="0 0 780 400"
+    描き方のヒント:
+      - 背景色を <rect width="780" height="400" fill="..."/> で設定
+      - 主要な登場人物・場所・物を中央に配置
+      - テキスト要素は font-size="9〜14" が読みやすい
+      - 吹き出しは <rect> + <polygon> + <text> の組み合わせで作る
+      - 情報パネルは <rect>（ヘッダー色）+ 複数の <text> で作る
+  -->
+  <div class="article-illustration">
+    <svg viewBox="0 0 780 400" xmlns="http://www.w3.org/2000/svg">
+      <!-- TODO: ここにSVGイラストを描く -->
+      <!-- 仮の背景 -->
+      <rect width="780" height="400" fill="#F5F5F5"/>
+      <text x="390" y="200" text-anchor="middle" font-size="20" fill="#BDBDBD">イラストをここに追加</text>
+    </svg>
+  </div>
+
+  <!-- ===== 出典ボックス ===== -->
+  <div class="article-source-box">
+    <!-- ▼ 掲載元メディア名 -->
+    <strong>📰 掲載元：</strong> [BBC News / Reuters / The Guardian など]<br>
+
+    <!-- ▼ 原文URL -->
+    <strong>🔗 URL：</strong> <a href="[原文URL]" target="_blank" rel="noopener">[原文URL]</a><br>
+
+    <!-- ▼ 関連記事URL（任意。不要なら削除） -->
+    <strong>🔗 関連：</strong> <a href="[関連URL]" target="_blank" rel="noopener">[関連URL]</a><br>
+
+    <!-- ▼ 掲載日 -->
+    <strong>📅 掲載日：</strong> [YYYY年M月D日]
+  </div>
+
+  <!-- ===== 記事テキスト ===== -->
+  <!--
+    書き方のガイドライン:
+      - 1段落目 (.lead): リード文。何が起きたかを1〜2文で要約
+      - 2段落目: 背景・文脈の説明
+      - 3段落目: 事件の詳細・展開
+      - 4段落目: 世界の反応・その後
+      - 5段落目: 締め（ユーモアや皮肉を添えると笑える地球らしい）
+      - 各段落: 200〜300文字目安
+  -->
+  <div class="article-text">
+    <p class="lead">
+      [リード文: 何が・どこで・いつ・なぜ起きたかを端的に。ユーモアを交えて。]
+    </p>
+
+    <p>
+      [背景・文脈の説明。その国や地域の事情、法律、慣習など。]
+    </p>
+
+    <p>
+      [事件・出来事の詳細。具体的な数字、人名、エピソードを交えて。]
+    </p>
+
+    <p>
+      [世界・当局・専門家の反応。BBCやガーディアンなどの報道内容を引用。]
+    </p>
+
+    <p>
+      [その後の展開や現状。オチや締めのひと言。]
+    </p>
+  </div>
+</div>
+
+<!-- ===== フッター（変更不要） ===== -->
+<footer class="site-footer">
+  <p>🌍 <strong style="color:#FFE14D">笑える地球</strong> — 世界の脱力ローカルニュースをお届け</p>
+  <p style="margin-top:0.5rem">掲載内容は実際のニュースを基にした紹介コンテンツです。</p>
+</footer>
+</body>
+</html>

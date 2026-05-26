@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  笑える地球 — サイトマップ
+  新しい記事を追加したら、このファイルにも <url> エントリを追加してください。
+  lastmod は記事の掲載日（articles-data.js の dateISO フィールドと揃える）。
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- トップページ -->
+  <url>
+    <loc>https://laughingearth.example.com/</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 記事01: ボリビア チョリータ -->
+  <url>
+    <loc>https://laughingearth.example.com/article-01.html</loc>
+    <lastmod>2019-03-11</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事02: ナイジェリア 山羊逮捕 -->
+  <url>
+    <loc>https://laughingearth.example.com/article-02.html</loc>
+    <lastmod>2009-01-22</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事03: モルディブ 水中閣議 -->
+  <url>
+    <loc>https://laughingearth.example.com/article-03.html</loc>
+    <lastmod>2009-10-17</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事04: パラグアイ 架空の国 -->
+  <url>
+    <loc>https://laughingearth.example.com/article-04.html</loc>
+    <lastmod>2023-11-30</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事05: 南アフリカ ペンギン墜落 -->
+  <url>
+    <loc>https://laughingearth.example.com/article-05.html</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事06: エクアドル ゾウガメ ディエゴ -->
+  <url>
+    <loc>https://laughingearth.example.com/article-06.html</loc>
+    <lastmod>2020-01-15</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事07: ガーナ 棺桶ダンス -->
+  <url>
+    <loc>https://laughingearth.example.com/article-07.html</loc>
+    <lastmod>2020-04-24</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事08: ブラジル サイ カカレコ -->
+  <url>
+    <loc>https://laughingearth.example.com/article-08.html</loc>
+    <lastmod>1959-10-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事09: ジャマイカ ドージコイン ボブスレー -->
+  <url>
+    <loc>https://laughingearth.example.com/article-09.html</loc>
+    <lastmod>2014-01-20</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事10: ジンバブエ 100兆ドル紙幣 -->
+  <url>
+    <loc>https://laughingearth.example.com/article-10.html</loc>
+    <lastmod>2009-01-16</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事11: コロンビア エスコバルのカバ -->
+  <url>
+    <loc>https://laughingearth.example.com/article-11.html</loc>
+    <lastmod>2021-05-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事12: エルサルバドル ビットコイン法定通貨 -->
+  <url>
+    <loc>https://laughingearth.example.com/article-12.html</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事13: スペイン ラ・トマティーナ -->
+  <url>
+    <loc>https://laughingearth.example.com/article-13.html</loc>
+    <lastmod>1944-08-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事14: フィリピン ドラキュラ警察 -->
+  <url>
+    <loc>https://laughingearth.example.com/article-14.html</loc>
+    <lastmod>2020-04-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事15: トルクメニスタン 白い車 -->
+  <url>
+    <loc>https://laughingearth.example.com/article-15.html</loc>
+    <lastmod>2018-09-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事16: ペルー タカナクイ -->
+  <url>
+    <loc>https://laughingearth.example.com/article-16.html</loc>
+    <lastmod>2018-12-25</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事17: グアテマラ コメディアン大統領 -->
+  <url>
+    <loc>https://laughingearth.example.com/article-17.html</loc>
+    <lastmod>2015-10-25</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事18: メキシコ チャプリネス -->
+  <url>
+    <loc>https://laughingearth.example.com/article-18.html</loc>
+    <lastmod>2013-05-13</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事19: アルゼンチン オランウータン法的権利 -->
+  <url>
+    <loc>https://laughingearth.example.com/article-19.html</loc>
+    <lastmod>2014-12-18</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事20: 台湾 鮭魚改名 -->
+  <url>
+    <loc>https://laughingearth.example.com/article-20.html</loc>
+    <lastmod>2021-03-17</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
