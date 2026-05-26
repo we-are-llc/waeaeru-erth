@@ -396,6 +396,96 @@ const ARTICLES_DATA = [
     ],
     source: "BBC News",
     sourceUrl: "https://www.bbc.com/news/world-asia-56395657"
+  },
+  {
+    id: 21,
+    url: "article-21.html",
+    flag: "🇸🇦",
+    country: "サウジアラビア",
+    region: "アジア",
+    dateLabel: "2021.01",
+    dateISO: "2021-01-17",
+    title: "「ラクダ美人コンテスト」でボトックス注射・整形手術のラクダ40頭以上が失格——賞金総額10億円超の大会で獣医が不正を摘発",
+    description: "2021年1月、サウジアラビアの「キング・アブドゥルアジーズ・ラクダフェスティバル」でラクダ40頭以上がボトックス注射や整形手術で失格処分。賞金総額10億円超の大会で獣医が不正を摘発。BBCが報道。",
+    excerpt: "2021年1月、サウジアラビアのラクダフェスティバルで40頭以上がボトックス注射・整形手術で失格。賞金10億円超の大会で獣医が不正摘発。BBC・Reuters報道。",
+    tags: [
+      { cls: "animals", label: "動物" },
+      { cls: "culture", label: "文化" }
+    ],
+    source: "BBC News / Reuters",
+    sourceUrl: "https://www.bbc.com/news/world-middle-east-55547665"
+  },
+  {
+    id: 22,
+    url: "article-22.html",
+    flag: "🇫🇮",
+    country: "フィンランド・ハイノラ",
+    region: "ヨーロッパ",
+    dateLabel: "2000年〜毎年夏",
+    dateISO: "2000-08-01",
+    title: "参加費は「古い携帯電話1台」——フィンランドが2000年から毎年開催する「世界携帯電話投げ選手権」、世界記録は約102m",
+    description: "フィンランドのハイノラ市で2000年から毎年開催される「世界携帯電話投げ選手権」。参加費は古い携帯電話1台で、飛距離部門と芸術点部門がある。世界記録は約102m。BBCも報道した実在の競技。",
+    excerpt: "フィンランド・ハイノラ市で2000年から毎年夏に開催される「世界携帯電話投げ選手権」。参加費は古い携帯1台。飛距離部門・芸術点部門があり世界記録は102.68m。BBCが報道。",
+    tags: [
+      { cls: "culture", label: "文化" },
+      { cls: "culture", label: "スポーツ" }
+    ],
+    source: "BBC News / Wikipedia",
+    sourceUrl: "https://en.wikipedia.org/wiki/Mobile_phone_throwing"
+  },
+  {
+    id: 23,
+    url: "article-23.html",
+    flag: "🇦🇺",
+    country: "オーストラリア・タスマニア",
+    region: "オセアニア",
+    dateLabel: "2009.07",
+    dateISO: "2009-07-01",
+    title: "タスマニア州議会「ワラビーがケシを食べてハイになり、ミステリーサークルを作っている」と公式証言——農家も「確かに円を描いて歩いてる」",
+    description: "2009年、オーストラリア・タスマニア州の議会でケシ農場のオーナーが「ワラビーがケシを食べてハイになり、ミステリーサークルを作っている」と証言。BBCが世界に報道した実際の出来事。",
+    excerpt: "2009年、タスマニア州議会でワラビーがケシを食べてハイになりミステリーサークルを作ると公式証言。世界のモルヒネ生産量50%を担うタスマニアならでは。BBC・Guardian報道。",
+    tags: [
+      { cls: "animals", label: "動物" },
+      { cls: "food", label: "農業" }
+    ],
+    source: "BBC News / The Guardian",
+    sourceUrl: "https://www.bbc.com/news/uk-10918429"
+  },
+  {
+    id: 24,
+    url: "article-24.html",
+    flag: "🇨🇦",
+    country: "カナダ・ケベック州",
+    region: "北米",
+    dateLabel: "2012.08",
+    dateISO: "2012-08-01",
+    title: "「世界戦略メープルシロップ備蓄庫」から3,000トン・27億円相当が消えた——カナダ史上最大の食品強盗、犯人はシロップ仲買人たちだった",
+    description: "2012年発覚、カナダ・ケベック州の「世界戦略メープルシロップ備蓄」から約3000トン・27億円相当のシロップが抜き取られていた。カナダ史上最大の食品強盗事件。BBCとThe New Yorkerが報道。",
+    excerpt: "2012年、カナダ・ケベック州の「世界戦略メープルシロップ備蓄庫」から3,000トン（約27億円相当）が盗まれた。定期検査で樽の重量不足から発覚。BBC・New Yorker報道。",
+    tags: [
+      { cls: "food", label: "食" },
+      { cls: "crime", label: "犯罪" }
+    ],
+    source: "BBC News / The New Yorker",
+    sourceUrl: "https://www.bbc.com/news/world-us-canada-19636898"
+  },
+  {
+    id: 25,
+    url: "article-25.html",
+    flag: "🇨🇳",
+    country: "中国・河南省",
+    region: "アジア",
+    dateLabel: "2013.08",
+    dateISO: "2013-08-14",
+    title: "動物園「これがアフリカライオンです」→来場者の子ども「吠えてますよ」——中国の動物園がチベタン・マスティフをライオンの檻に展示して発覚、同園でロバはシマウマに偽装",
+    description: "2013年8月、中国・河南省の動物園が「アフリカライオン」の檻にチベタン・マスティフ（大型犬）を入れて展示していたことが発覚。来場者の子どもが「ライオンが吠えてる」と指摘し騒ぎに。BBCが報道。",
+    excerpt: "2013年8月、中国の動物園が「アフリカライオン」の檻に大型犬チベタン・マスティフを展示。来場者の子どもが「ライオンが吠えてる」と気づき発覚。ロバのシマウマも同時発覚。BBC報道。",
+    tags: [
+      { cls: "animals", label: "動物" },
+      { cls: "crime", label: "詐欺" }
+    ],
+    source: "BBC News / The Guardian",
+    sourceUrl: "https://www.bbc.com/news/world-asia-china-22907321"
   }
 ];
 
