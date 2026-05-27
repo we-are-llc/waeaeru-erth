@@ -1545,6 +1545,438 @@ const ARTICLES_DATA = [
           <!-- 地面 -->
           <rect x="75" y="155" width="250" height="20" fill="#C4A87A" rx="2"/>
         </svg>`
+  },
+  {
+    id: 26,
+    url: "article-26.html",
+    flag: "🇨🇳",
+    country: "中国・内モンゴル",
+    region: "アジア",
+    dateLabel: "2010年代〜",
+    dateISO: "2012-01-01",
+    title: "住民ゼロの超高層都市——中国・オルドス「カンバシ新区」、幽霊都市の全貌",
+    description: "内モンゴル自治区オルドス市に建設された近代的な新都市「カンバシ新区」。高層マンション・官庁・広場が立ち並ぶが住民はほぼゼロ。BBCが「幽霊都市」として報じ世界に衝撃を与えた。",
+    excerpt: "内モンゴルに建設された近代的な新都市。高層マンションが立ち並ぶが住民はほぼゼロ。BBCが「中国の幽霊都市」として世界に報じた衝撃の実態。",
+    tags: [
+      { cls: "politics", label: "政治・経済" },
+      { cls: "culture", label: "文化" }
+    ],
+    source: "BBC News",
+    sourceUrl: "https://www.bbc.com/news/magazine-23279240",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#C8C4B8"/>
+      <rect width="400" height="100" fill="#B0B0A8"/>
+      <rect x="20"  y="60"  width="35" height="140" fill="#909088"/>
+      <rect x="62"  y="45"  width="40" height="155" fill="#888880"/>
+      <rect x="110" y="55"  width="35" height="145" fill="#909088"/>
+      <rect x="155" y="40"  width="42" height="160" fill="#888880"/>
+      <rect x="205" y="50"  width="38" height="150" fill="#909088"/>
+      <rect x="252" y="38"  width="40" height="162" fill="#888880"/>
+      <rect x="300" y="55"  width="36" height="145" fill="#909088"/>
+      <rect x="344" y="44"  width="40" height="156" fill="#888880"/>
+      <rect x="0"   y="165" width="400" height="35" fill="#A0988A"/>
+      <rect x="160" y="145" width="80" height="8"  fill="#C0B8AA" rx="2"/>
+      <text x="200" y="185" text-anchor="middle" font-size="11" fill="#555" font-weight="bold">人影なき都市</text>
+    </svg>`
+  },
+  {
+    id: 27,
+    url: "article-27.html",
+    flag: "🇨🇳",
+    country: "中国・広東省",
+    region: "アジア",
+    dateLabel: "2005年〜",
+    dateISO: "2005-06-01",
+    title: "世界最大なのにガラガラ——中国「ニュー・サウス・チャイナ・モール」、開業即ゴーストモール化",
+    description: "2005年広東省東莞に開業した延べ床面積世界最大のショッピングモール。エッフェル塔レプリカや運河まであるが入居店舗は数%で閑散。The Guardianが「世界最大のゴーストモール」として報道。",
+    excerpt: "エッフェル塔レプリカまで備えた世界最大のモールが開業直後から閑散。入居率数%のゴーストモールをThe Guardianが報道した衝撃の実態。",
+    tags: [
+      { cls: "culture", label: "文化" }
+    ],
+    source: "The Guardian",
+    sourceUrl: "https://www.theguardian.com/cities/2014/may/27/new-south-china-mall-worlds-biggest-shopping-centre",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#E8E0D0"/>
+      <rect x="30"  y="60"  width="340" height="120" fill="#D8D0C0"/>
+      <rect x="30"  y="55"  width="340" height="15"  fill="#C8C0B0"/>
+      <!-- 閉まっているシャッター -->
+      <rect x="45"  y="80"  width="50" height="80" fill="#BBB0A0" rx="2"/>
+      <rect x="47"  y="82"  width="46" height="4"  fill="#AAA090"/>
+      <rect x="47"  y="90"  width="46" height="4"  fill="#AAA090"/>
+      <rect x="47"  y="98"  width="46" height="4"  fill="#AAA090"/>
+      <rect x="47"  y="106" width="46" height="4"  fill="#AAA090"/>
+      <rect x="47"  y="114" width="46" height="4"  fill="#AAA090"/>
+      <rect x="47"  y="122" width="46" height="4"  fill="#AAA090"/>
+      <rect x="47"  y="130" width="46" height="4"  fill="#AAA090"/>
+      <rect x="47"  y="138" width="46" height="4"  fill="#AAA090"/>
+      <rect x="47"  y="146" width="46" height="4"  fill="#AAA090"/>
+      <rect x="110" y="80"  width="50" height="80" fill="#BBB0A0" rx="2"/>
+      <rect x="112" y="82"  width="46" height="4"  fill="#AAA090"/>
+      <rect x="112" y="90"  width="46" height="4"  fill="#AAA090"/>
+      <rect x="112" y="98"  width="46" height="4"  fill="#AAA090"/>
+      <rect x="112" y="106" width="46" height="4"  fill="#AAA090"/>
+      <rect x="112" y="114" width="46" height="4"  fill="#AAA090"/>
+      <rect x="112" y="122" width="46" height="4"  fill="#AAA090"/>
+      <!-- エッフェル塔レプリカ（小） -->
+      <polygon points="230,62 222,155 238,155" fill="#B0A888" opacity="0.7"/>
+      <polygon points="230,62 226,90 234,90"   fill="#C0B898" opacity="0.8"/>
+      <line x1="222" y1="120" x2="238" y2="120" stroke="#B0A888" stroke-width="2"/>
+      <!-- 一人の人 -->
+      <circle cx="310" cy="155" r="6" fill="#C8A070"/>
+      <rect x="306" y="161" width="8" height="14" fill="#4488CC" rx="1"/>
+      <text x="200" y="185" text-anchor="middle" font-size="10" fill="#777" font-weight="bold">開業即ゴーストモール</text>
+    </svg>`
+  },
+  {
+    id: 28,
+    url: "article-28.html",
+    flag: "🇨🇳",
+    country: "中国・北京",
+    region: "アジア",
+    dateLabel: "2013〜2015年",
+    dateISO: "2014-01-01",
+    title: "北京のスモッグに「空気の缶詰め」で抗議——中国の億万長者が新鮮な空気を1缶9円で販売、BBCが報道",
+    description: "2013〜2015年、中国の実業家・陳光標氏が北京の深刻な大気汚染に抗議するため、フランス・プロヴァンスや台湾の山岳地帯の新鮮な空気を缶詰めにして1缶0.5元（約9円）で販売。BBCが報道。",
+    excerpt: "北京のスモッグに抗議するため、中国の億万長者がフランス産・台湾産の空気を缶詰めにして1缶9円で販売。BBCが「世界で最もユニークな環境活動」と報じた。",
+    tags: [
+      { cls: "politics", label: "政治・経済" },
+      { cls: "culture", label: "文化" }
+    ],
+    source: "BBC News",
+    sourceUrl: "https://www.bbc.com/news/world-asia-china-25587465",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="200" height="200" fill="#C0B8A8"/>
+      <rect x="200" width="200" height="200" fill="#B0D8F0"/>
+      <rect width="200" height="100" fill="#A8A090"/>
+      <rect x="200" width="200" height="100" fill="#85C8E8"/>
+      <rect x="20"  y="80"  width="30" height="120" fill="#808070"/>
+      <rect x="55"  y="65"  width="35" height="135" fill="#787868"/>
+      <rect x="98"  y="75"  width="30" height="125" fill="#808070"/>
+      <rect x="135" y="60"  width="32" height="140" fill="#787868"/>
+      <ellipse cx="100" cy="125" rx="100" ry="40" fill="rgba(150,140,120,0.5)"/>
+      <ellipse cx="280" cy="35" rx="35" ry="13" fill="white" opacity="0.85"/>
+      <polygon points="200,155 230,100 260,125 300,95 340,115 400,100 400,155" fill="#5A9450"/>
+      <rect x="200" y="155" width="200" height="45" fill="#80A860"/>
+      <rect x="155" y="130" width="22" height="35" fill="#4CAF50" rx="3"/>
+      <text x="166" y="143" text-anchor="middle" font-size="5" fill="white" font-weight="bold">新鮮</text>
+      <text x="166" y="152" text-anchor="middle" font-size="5" fill="white">空気</text>
+      <rect x="180" y="133" width="20" height="35" fill="#2196F3" rx="3"/>
+      <text x="190" y="146" text-anchor="middle" font-size="5" fill="white">台湾</text>
+      <rect x="203" y="130" width="20" height="35" fill="#FF9800" rx="3"/>
+      <text x="213" y="143" text-anchor="middle" font-size="5" fill="white">仏産</text>
+      <text x="200" y="185" text-anchor="middle" font-size="10" fill="#333" font-weight="bold">空気を売る男</text>
+    </svg>`
+  },
+  {
+    id: 29,
+    url: "article-29.html",
+    flag: "🇨🇳",
+    country: "中国・浙江省",
+    region: "アジア",
+    dateLabel: "1959年水没",
+    dateISO: "2001-01-01",
+    title: "水深40mに眠る「水没都市・獅城」——1,300年前の唐代城塞がほぼ完全な姿で湖底に保存",
+    description: "1959年に水力発電ダム建設のため水没した中国・浙江省千島湖の「獅城」。水深40mの湖底に唐代の城壁・石畳・彫刻が驚くほど完全な状態で残り「中国のアトランティス」と世界で話題に。",
+    excerpt: "1959年にダム建設で沈んだ古代城塞「獅城」。水深40mの湖底に1,300年前の建物がほぼ完全な姿で残り、「中国のアトランティス」として世界中のダイバーを魅了する。",
+    tags: [
+      { cls: "culture", label: "文化" }
+    ],
+    source: "The Guardian",
+    sourceUrl: "https://www.theguardian.com/world/2014/may/22/lion-city-qiandao-lake-china",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="90" fill="#7ABCD0"/>
+      <polygon points="0,90 40,55 80,75 120,48 200,65 280,42 340,58 400,48 400,90" fill="#4A7A40"/>
+      <defs>
+        <linearGradient id="lake29" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#3A88A8"/>
+          <stop offset="100%" stop-color="#0D2B40"/>
+        </linearGradient>
+      </defs>
+      <rect y="90"  width="400" height="20" fill="url(#lake29)" opacity="0.8"/>
+      <rect y="110" width="400" height="90" fill="#1B4F72"/>
+      <ellipse cx="200" cy="130" rx="120" ry="15" fill="rgba(80,160,200,0.1)"/>
+      <rect x="80"  y="148" width="240" height="10" fill="#6A6050" opacity="0.85"/>
+      <rect x="95"  y="130" width="30" height="28" fill="#5A5040" opacity="0.85"/>
+      <polygon points="95,130 110,116 125,130" fill="#4A4030" opacity="0.85"/>
+      <rect x="145" y="135" width="25" height="23" fill="#6A6050" opacity="0.85"/>
+      <polygon points="145,135 157,123 170,135" fill="#5A5040" opacity="0.85"/>
+      <rect x="240" y="132" width="28" height="26" fill="#5A5040" opacity="0.85"/>
+      <polygon points="240,132 254,119 268,132" fill="#4A4030" opacity="0.85"/>
+      <rect x="285" y="137" width="25" height="21" fill="#6A6050" opacity="0.85"/>
+      <polygon points="285,137 297,126 310,137" fill="#5A5040" opacity="0.85"/>
+      <text x="200" y="186" text-anchor="middle" font-size="10" fill="rgba(180,220,255,0.9)" font-weight="bold">水深40mの古代都市</text>
+    </svg>`
+  },
+  {
+    id: 30,
+    url: "article-30.html",
+    flag: "🇨🇳",
+    country: "中国・重慶市",
+    region: "アジア",
+    dateLabel: "2007年",
+    dateISO: "2007-03-27",
+    title: "ビルに囲まれても断固として立ち退かない——「釘子戸」夫妻、崖の上の孤島で開発業者と戦う",
+    description: "2007年中国・重慶市で開発業者に立ち退きを拒否し続けた呉苹夫妻の自宅が、周囲を掘り崩され崖の上の孤島になった。「釘子戸」として世界中のメディアが報じ、中国のBBSで英雄視された社会現象。",
+    excerpt: "重慶市の開発現場で立ち退きを拒否した夫妻の家が崖の孤島に。「釘子戸（くぎ建物）」として世界中が報じ、中国版SNSで英雄扱いされた2007年の社会現象。",
+    tags: [
+      { cls: "politics", label: "政治・経済" },
+      { cls: "culture", label: "文化" }
+    ],
+    source: "The Guardian",
+    sourceUrl: "https://www.theguardian.com/world/2007/mar/27/china.jonathanwatts",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#87CEEB"/>
+      <rect x="0"   y="40"  width="55" height="160" fill="#8899AA"/>
+      <rect x="60"  y="30"  width="60" height="170" fill="#778899"/>
+      <rect x="280" y="35"  width="60" height="165" fill="#8899AA"/>
+      <rect x="345" y="25"  width="55" height="175" fill="#778899"/>
+      <ellipse cx="200" cy="155" rx="155" ry="40" fill="#8B7355"/>
+      <ellipse cx="200" cy="148" rx="130" ry="32" fill="#7A6545"/>
+      <polygon points="160,148 175,110 200,105 225,110 240,148" fill="#9B8565"/>
+      <rect x="172" y="88"  width="56" height="34" fill="#C8B090"/>
+      <polygon points="172,88 200,72 228,88" fill="#B8604A"/>
+      <rect x="183" y="95"  width="11" height="11" fill="#87CEEB" opacity="0.9"/>
+      <rect x="206" y="95"  width="11" height="11" fill="#87CEEB" opacity="0.9"/>
+      <rect x="192" y="100" width="14" height="22" fill="#7A5A40"/>
+      <rect x="168" y="70"  width="64" height="10" fill="#E63946" rx="2"/>
+      <text x="200" y="79" text-anchor="middle" font-size="6.5" fill="white" font-weight="bold">立退拒否！我が家を守る</text>
+      <line x1="200" y1="72" x2="200" y2="55" stroke="#555" stroke-width="1.5"/>
+      <polygon points="200,55 214,60 200,66" fill="#E63946"/>
+      <text x="200" y="188" text-anchor="middle" font-size="10" fill="#333" font-weight="bold">重慶「釘子戸」孤島の一軒家</text>
+    </svg>`
+  },
+  {
+    id: 31,
+    url: "article-31.html",
+    flag: "🇹🇭",
+    country: "タイ・ロッブリー",
+    region: "アジア",
+    dateLabel: "毎年11月",
+    dateISO: "2018-10-28",
+    title: "サル3,000頭のために豪華ビュッフェを開催——タイ・ロッブリー「モンキーバンケット」、世界が注目する奇祭",
+    description: "タイ・ロッブリー市で毎年11月の最終日曜日に開かれる「モンキーバンケット」。果物・野菜・デザート4トンを3,000頭以上の野生のサルに振る舞う世界的に珍しい奇祭。1989年から続く観光イベント。",
+    excerpt: "タイ・ロッブリーでは毎年11月、3,000頭以上の野生のサルのために4トンのビュッフェを用意する奇祭「モンキーバンケット」が開催。1989年から続く世界的に有名な人気イベント。",
+    tags: [
+      { cls: "animals", label: "動物" },
+      { cls: "culture", label: "文化" }
+    ],
+    source: "BBC News",
+    sourceUrl: "https://www.bbc.com/news/world-asia-45950431",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#E8D898"/>
+      <rect width="400" height="90" fill="#FFD88A"/>
+      <rect x="170" y="40" width="90" height="60" fill="#C8A050"/>
+      <polygon points="170,40 215,20 260,40" fill="#B89040"/>
+      <rect x="185" y="50" width="30" height="50" fill="#A07030"/>
+      <rect x="40"  y="110" width="320" height="10" fill="#8B5A2B" rx="3"/>
+      <ellipse cx="80"  cy="108" rx="18" ry="10" fill="#FFE135"/>
+      <ellipse cx="130" cy="106" rx="16" ry="12" fill="#4CAF50"/>
+      <ellipse cx="130" cy="106" rx="13" ry="9"  fill="#E53935"/>
+      <ellipse cx="185" cy="107" rx="12" ry="14" fill="#F4C430"/>
+      <ellipse cx="240" cy="107" rx="14" ry="10" fill="#FF8F00"/>
+      <ellipse cx="295" cy="108" rx="16" ry="10" fill="#F4C430"/>
+      <text x="80"  y="98"  text-anchor="middle" font-size="14">🐒</text>
+      <text x="135" y="96"  text-anchor="middle" font-size="13">🐒</text>
+      <text x="200" y="95"  text-anchor="middle" font-size="15">🐒</text>
+      <text x="260" y="97"  text-anchor="middle" font-size="13">🐒</text>
+      <text x="315" y="98"  text-anchor="middle" font-size="14">🐒</text>
+      <text x="50"  y="150" text-anchor="middle" font-size="11">🐒</text>
+      <text x="110" y="155" text-anchor="middle" font-size="12">🐒</text>
+      <text x="290" y="152" text-anchor="middle" font-size="11">🐒</text>
+      <text x="350" y="148" text-anchor="middle" font-size="12">🐒</text>
+      <rect y="165" width="400" height="35" fill="#C8A860"/>
+      <text x="200" y="188" text-anchor="middle" font-size="10" fill="#555" font-weight="bold">ロッブリー モンキーバンケット</text>
+    </svg>`
+  },
+  {
+    id: 32,
+    url: "article-32.html",
+    flag: "🇹🇭",
+    country: "タイ・チェンマイ",
+    region: "アジア",
+    dateLabel: "2000年代〜",
+    dateISO: "2014-02-01",
+    title: "象が鼻でブラシを持ち絵を描いて販売——タイ・チェンマイの「絵描きゾウ」が世界中で話題に",
+    description: "タイ北部チェンマイの象キャンプで象が鼻でブラシを握り絵を描き観光客に販売するビジネスが人気に。BBCやAPが報道し動物の創造性をめぐる国際的な議論を呼んだ。",
+    excerpt: "タイ・チェンマイで象が鼻でブラシを持ち絵を描いて観光客に販売。「芸術家か、調教か」をめぐる議論を呼んだ絵描きゾウが世界中のメディアで報じられた。",
+    tags: [
+      { cls: "animals", label: "動物" },
+      { cls: "culture", label: "文化" }
+    ],
+    source: "BBC News",
+    sourceUrl: "https://www.bbc.com/news/magazine-26116991",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#B8D898"/>
+      <rect width="400" height="100" fill="#87CEEB"/>
+      <ellipse cx="40"  cy="70" rx="35" ry="45" fill="#3A7A30"/>
+      <rect x="33" y="108" width="10" height="45" fill="#6B4226"/>
+      <ellipse cx="360" cy="65" rx="38" ry="48" fill="#3A7A30"/>
+      <rect x="353" y="105" width="10" height="48" fill="#6B4226"/>
+      <!-- イーゼルとキャンバス -->
+      <line x1="270" y1="85"  x2="248" y2="165" stroke="#8B5A2B" stroke-width="3"/>
+      <line x1="270" y1="85"  x2="292" y2="165" stroke="#8B5A2B" stroke-width="3"/>
+      <rect x="240" y="72"  width="62" height="52" fill="white" stroke="#C8A060" stroke-width="2"/>
+      <!-- 象の絵（キャンバス内） -->
+      <ellipse cx="271" cy="106" rx="18" ry="13" fill="#D0C0A8" stroke="#A09080" stroke-width="1"/>
+      <circle cx="271" cy="95"  r="9"  fill="#D0C0A8" stroke="#A09080" stroke-width="1"/>
+      <path d="M267,98 Q260,108 263,118" stroke="#A09080" stroke-width="1.5" fill="none"/>
+      <!-- 象本体 -->
+      <ellipse cx="150" cy="125" rx="70" ry="45" fill="#9B9080"/>
+      <circle cx="208" cy="98"  r="38" fill="#9B9080"/>
+      <ellipse cx="228" cy="103" rx="18" ry="26" fill="#B8A898"/>
+      <circle cx="218" cy="90"  r="5"  fill="#333"/>
+      <path d="M218,108 Q210,128 215,138" stroke="#9B9080" stroke-width="9" fill="none" stroke-linecap="round"/>
+      <!-- ブラシを持った鼻先 -->
+      <line x1="215" y1="138" x2="240" y2="115" stroke="#8B5A2B" stroke-width="3"/>
+      <rect x="237" y="110" width="10" height="7"  fill="#FF6030" rx="1"/>
+      <rect x="100" y="152" width="18" height="40" fill="#8B8070" rx="5"/>
+      <rect x="140" y="152" width="18" height="40" fill="#8B8070" rx="5"/>
+      <rect x="172" y="152" width="18" height="40" fill="#8B8070" rx="5"/>
+      <rect y="175"  width="400" height="25" fill="#A8906A"/>
+      <text x="200" y="192" text-anchor="middle" font-size="10" fill="white" font-weight="bold">絵描きゾウ（チェンマイ）</text>
+    </svg>`
+  },
+  {
+    id: 33,
+    url: "article-33.html",
+    flag: "🇮🇳",
+    country: "インド・ラジャスタン",
+    region: "アジア",
+    dateLabel: "15世紀創建・現在も",
+    dateISO: "2015-01-01",
+    title: "2万匹のネズミが神の使い——インド「カルニマタ寺院」、ラット・テンプルの聖なる日常",
+    description: "インド・ラジャスタン州デシュノクのカルニマタ寺院には約2万匹のネズミが生息し、神の使いとして崇拝される。白いネズミを見ると幸運とされ、参拝者は素足でネズミの間を歩く。国際メディアが繰り返し報道。",
+    excerpt: "インド・ラジャスタンのカルニマタ寺院には約2万匹のネズミが神の使いとして生息。白いネズミを見ると幸運とされ、参拝者は素足でその間を歩く。ナショジオが報じた奇習。",
+    tags: [
+      { cls: "animals", label: "動物" },
+      { cls: "culture", label: "文化" }
+    ],
+    source: "National Geographic",
+    sourceUrl: "https://www.nationalgeographic.com/travel/article/karni-mata",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#F0E4CC"/>
+      <rect width="400" height="90" fill="#F5E8D0"/>
+      <rect x="80"  y="55"  width="240" height="120" fill="#EDD8B0"/>
+      <rect x="80"  y="48"  width="240" height="16"  fill="#D8C090"/>
+      <polygon points="190,25 200,12 210,25" fill="#C04020"/>
+      <polygon points="175,32 200,15 225,32" fill="#D04020"/>
+      <rect x="175" y="32"  width="50" height="36"  fill="#C8A060"/>
+      <rect x="160" y="100" width="80" height="75"  fill="#2A1A0A"/>
+      <path d="M160,100 Q200,78 240,100" fill="#C04020"/>
+      <line x1="170" y1="100" x2="170" y2="175" stroke="silver" stroke-width="1.5"/>
+      <line x1="185" y1="100" x2="185" y2="175" stroke="silver" stroke-width="1.5"/>
+      <line x1="200" y1="100" x2="200" y2="175" stroke="silver" stroke-width="1.5"/>
+      <line x1="215" y1="100" x2="215" y2="175" stroke="silver" stroke-width="1.5"/>
+      <line x1="230" y1="100" x2="230" y2="175" stroke="silver" stroke-width="1.5"/>
+      <line x1="160" y1="130" x2="240" y2="130" stroke="silver" stroke-width="1.2"/>
+      <line x1="160" y1="155" x2="240" y2="155" stroke="silver" stroke-width="1.2"/>
+      <text x="90"  y="178" text-anchor="middle" font-size="13">🐀</text>
+      <text x="120" y="172" text-anchor="middle" font-size="12">🐀</text>
+      <text x="270" y="176" text-anchor="middle" font-size="12">🐀</text>
+      <text x="305" y="173" text-anchor="middle" font-size="13">🐀</text>
+      <circle cx="200" cy="170" r="6" fill="white" stroke="#DDD" stroke-width="1"/>
+      <text x="200" y="188" text-anchor="middle" font-size="9.5" fill="#8B4513" font-weight="bold">カルニマタ寺院（ラット・テンプル）</text>
+    </svg>`
+  },
+  {
+    id: 34,
+    url: "article-34.html",
+    flag: "🇮🇳",
+    country: "インド・ビハール州",
+    region: "アジア",
+    dateLabel: "2015年3月",
+    dateISO: "2015-03-19",
+    title: "カンニングを手伝うために試験会場の外壁をよじ登る保護者——インド・ビハール州、世界が唖然とした光景",
+    description: "2015年インド・ビハール州の中学卒業試験で、保護者が試験会場の外壁をよじ登り窓越しにカンニングペーパーを渡そうとした写真が世界中で拡散。BBCが報じ教育格差の象徴として話題に。",
+    excerpt: "インド・ビハール州の試験会場で、保護者が外壁をよじ登り窓越しにカンニングペーパーを渡す光景が世界に衝撃を。BBCが報じた「愛情が形を間違えた」事件。",
+    tags: [
+      { cls: "culture", label: "文化" },
+      { cls: "crime", label: "犯罪・事故" }
+    ],
+    source: "BBC News",
+    sourceUrl: "https://www.bbc.com/news/world-asia-india-31747898",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#87CEEB"/>
+      <rect x="60"  y="50"  width="280" height="150" fill="#D4C5A0"/>
+      <rect x="60"  y="44"  width="280" height="16"  fill="#C4B590"/>
+      <!-- 窓 -->
+      <rect x="80"  y="65"  width="42" height="36" fill="#87CEEB" stroke="#A09070" stroke-width="1.5"/>
+      <rect x="140" y="65"  width="42" height="36" fill="#FFD080" stroke="#A09070" stroke-width="1.5"/>
+      <rect x="200" y="65"  width="42" height="36" fill="#FFD080" stroke="#A09070" stroke-width="1.5"/>
+      <rect x="260" y="65"  width="42" height="36" fill="#87CEEB" stroke="#A09070" stroke-width="1.5"/>
+      <rect x="80"  y="115" width="42" height="38" fill="#FFD080" stroke="#A09070" stroke-width="1.5"/>
+      <rect x="260" y="115" width="42" height="38" fill="#FFD080" stroke="#A09070" stroke-width="1.5"/>
+      <text x="101" y="90"  text-anchor="middle" font-size="11">📝</text>
+      <text x="161" y="88"  text-anchor="middle" font-size="10">😓</text>
+      <text x="221" y="90"  text-anchor="middle" font-size="10">📝</text>
+      <text x="281" y="88"  text-anchor="middle" font-size="10">😰</text>
+      <!-- よじ登る人1 -->
+      <circle cx="128" cy="120" r="8"  fill="#C8A070"/>
+      <rect x="123" y="128" width="9" height="18" fill="#8B4513" rx="1"/>
+      <line x1="132" y1="132" x2="145" y2="112" stroke="#C8A070" stroke-width="3" stroke-linecap="round"/>
+      <rect x="143" y="106" width="12" height="8"  fill="#FFF9C4" stroke="#999" stroke-width="0.8" transform="rotate(-10,149,110)"/>
+      <line x1="124" y1="146" x2="116" y2="158" stroke="#C8A070" stroke-width="3" stroke-linecap="round"/>
+      <line x1="131" y1="146" x2="138" y2="155" stroke="#C8A070" stroke-width="3" stroke-linecap="round"/>
+      <!-- よじ登る人2 -->
+      <circle cx="283" cy="108" r="8"  fill="#B8906A"/>
+      <rect x="278" y="116" width="9" height="18" fill="#556B2F" rx="1"/>
+      <line x1="278" y1="120" x2="262" y2="103" stroke="#B8906A" stroke-width="3" stroke-linecap="round"/>
+      <rect x="250" y="97" width="11" height="8"  fill="#FFF9C4" stroke="#999" stroke-width="0.8" transform="rotate(8,255,101)"/>
+      <line x1="279" y1="134" x2="271" y2="145" stroke="#B8906A" stroke-width="3" stroke-linecap="round"/>
+      <rect y="175"  width="400" height="25" fill="#8B7355"/>
+      <text x="200" y="192" text-anchor="middle" font-size="9.5" fill="white" font-weight="bold">ビハール州「外壁登りカンニング」2015</text>
+    </svg>`
+  },
+  {
+    id: 35,
+    url: "article-35.html",
+    flag: "🇮🇳",
+    country: "インド各地",
+    region: "アジア",
+    dateLabel: "古来〜現在",
+    dateISO: "2017-07-01",
+    title: "カエルの結婚式で雨乞い——インド農村に残る「カエル婚」の風習、科学と信仰が交差する奇習",
+    description: "インドの農村部で干ばつが続くと、カエルを新郎・新婦に見立ててバラモン僧が婚礼を執り行う「カエル婚」で雨乞いをする風習が各地に残る。BBCやロイターが繰り返し報道した。",
+    excerpt: "インド農村では干ばつになるとカエルを新郎・新婦に見立て本物の結婚式を挙げる「カエル婚」で雨乞いをする。科学と信仰が交差する奇習をBBCが報道した。",
+    tags: [
+      { cls: "culture", label: "文化" },
+      { cls: "animals", label: "動物" }
+    ],
+    source: "BBC News",
+    sourceUrl: "https://www.bbc.com/news/world-asia-india-40728697",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#D8C888"/>
+      <rect width="400" height="80"  fill="#B0C0D0"/>
+      <ellipse cx="100" cy="42" rx="55" ry="22" fill="#8090A0" opacity="0.9"/>
+      <ellipse cx="135" cy="32" rx="42" ry="18" fill="#7080909" opacity="0.9"/>
+      <ellipse cx="290" cy="40" rx="58" ry="24" fill="#8090A0" opacity="0.9"/>
+      <line x1="90"  y1="64" x2="88"  y2="76" stroke="#6699CC" stroke-width="1.5"/>
+      <line x1="108" y1="62" x2="106" y2="74" stroke="#6699CC" stroke-width="1.5"/>
+      <line x1="275" y1="64" x2="273" y2="76" stroke="#6699CC" stroke-width="1.5"/>
+      <line x1="300" y1="62" x2="298" y2="74" stroke="#6699CC" stroke-width="1.5"/>
+      <!-- 祭壇 -->
+      <rect x="150" y="95"  width="100" height="48" fill="#F0E0A8" stroke="#C09050" stroke-width="1.5" rx="3"/>
+      <ellipse cx="150" cy="95"  rx="8" ry="6" fill="#4A8A40"/>
+      <ellipse cx="250" cy="95"  rx="8" ry="6" fill="#4A8A40"/>
+      <ellipse cx="200" cy="89"  rx="14" ry="6" fill="#FF6090" opacity="0.8"/>
+      <!-- カエル新郎 -->
+      <ellipse cx="178" cy="130" rx="14" ry="10" fill="#4CAF50"/>
+      <circle cx="178" cy="120" r="9"  fill="#4CAF50"/>
+      <circle cx="173" cy="117" r="3"  fill="white" stroke="#333" stroke-width="0.8"/>
+      <circle cx="183" cy="117" r="3"  fill="white" stroke="#333" stroke-width="0.8"/>
+      <rect x="171" y="110" width="13" height="4" fill="#FFD700" rx="1"/>
+      <!-- カエル新婦 -->
+      <ellipse cx="222" cy="130" rx="14" ry="10" fill="#66BB6A"/>
+      <circle cx="222" cy="120" r="9"  fill="#66BB6A"/>
+      <circle cx="217" cy="117" r="3"  fill="white" stroke="#333" stroke-width="0.8"/>
+      <circle cx="227" cy="117" r="3"  fill="white" stroke="#333" stroke-width="0.8"/>
+      <circle cx="222" cy="110" r="5"  fill="#FF6090"/>
+      <!-- 司祭 -->
+      <circle cx="200" cy="162" r="9"  fill="#C8A070"/>
+      <rect x="195" y="171" width="9"  height="20" fill="#FF9800" rx="1"/>
+      <rect y="175"  width="400" height="25" fill="#B09850"/>
+      <text x="200" y="192" text-anchor="middle" font-size="10" fill="white" font-weight="bold">インド「カエル婚」雨乞い儀式</text>
+    </svg>`
   }
 ];
 

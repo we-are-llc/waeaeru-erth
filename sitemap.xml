@@ -214,4 +214,84 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- 記事26: 中国 オルドス幽霊都市 -->
+  <url>
+    <loc>https://laughingearth.example.com/article-26.html</loc>
+    <lastmod>2012-01-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事27: 中国 ニュー・サウス・チャイナ・モール -->
+  <url>
+    <loc>https://laughingearth.example.com/article-27.html</loc>
+    <lastmod>2005-06-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事28: 中国 空気の缶詰め -->
+  <url>
+    <loc>https://laughingearth.example.com/article-28.html</loc>
+    <lastmod>2014-01-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事29: 中国 千島湖 水没都市獅城 -->
+  <url>
+    <loc>https://laughingearth.example.com/article-29.html</loc>
+    <lastmod>2001-01-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事30: 中国 重慶 釘子戸 -->
+  <url>
+    <loc>https://laughingearth.example.com/article-30.html</loc>
+    <lastmod>2007-03-27</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事31: タイ ロッブリー モンキーバンケット -->
+  <url>
+    <loc>https://laughingearth.example.com/article-31.html</loc>
+    <lastmod>2018-10-28</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事32: タイ チェンマイ 絵描きゾウ -->
+  <url>
+    <loc>https://laughingearth.example.com/article-32.html</loc>
+    <lastmod>2014-02-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事33: インド ラジャスタン カルニマタ寺院 -->
+  <url>
+    <loc>https://laughingearth.example.com/article-33.html</loc>
+    <lastmod>2015-01-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事34: インド ビハール州 外壁登りカンニング -->
+  <url>
+    <loc>https://laughingearth.example.com/article-34.html</loc>
+    <lastmod>2015-03-19</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事35: インド カエル婚 雨乞い -->
+  <url>
+    <loc>https://laughingearth.example.com/article-35.html</loc>
+    <lastmod>2017-07-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
