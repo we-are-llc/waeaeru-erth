@@ -8,7 +8,7 @@
 
   <!-- トップページ -->
   <url>
-    <loc>https://laughingearth.example.com/</loc>
+    <loc>https://waraeru-erth.wa-re.net</loc>
     <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -16,7 +16,7 @@
 
   <!-- 記事01: ボリビア チョリータ -->
   <url>
-    <loc>https://laughingearth.example.com/article-01.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-01.html</loc>
     <lastmod>2019-03-11</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -24,7 +24,7 @@
 
   <!-- 記事02: ナイジェリア 山羊逮捕 -->
   <url>
-    <loc>https://laughingearth.example.com/article-02.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-02.html</loc>
     <lastmod>2009-01-22</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -32,7 +32,7 @@
 
   <!-- 記事03: モルディブ 水中閣議 -->
   <url>
-    <loc>https://laughingearth.example.com/article-03.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-03.html</loc>
     <lastmod>2009-10-17</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -40,7 +40,7 @@
 
   <!-- 記事04: パラグアイ 架空の国 -->
   <url>
-    <loc>https://laughingearth.example.com/article-04.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-04.html</loc>
     <lastmod>2023-11-30</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -48,7 +48,7 @@
 
   <!-- 記事05: 南アフリカ ペンギン墜落 -->
   <url>
-    <loc>https://laughingearth.example.com/article-05.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-05.html</loc>
     <lastmod>2025-04-13</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -56,7 +56,7 @@
 
   <!-- 記事06: エクアドル ゾウガメ ディエゴ -->
   <url>
-    <loc>https://laughingearth.example.com/article-06.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-06.html</loc>
     <lastmod>2020-01-15</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -64,7 +64,7 @@
 
   <!-- 記事07: ガーナ 棺桶ダンス -->
   <url>
-    <loc>https://laughingearth.example.com/article-07.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-07.html</loc>
     <lastmod>2020-04-24</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -72,7 +72,7 @@
 
   <!-- 記事08: ブラジル サイ カカレコ -->
   <url>
-    <loc>https://laughingearth.example.com/article-08.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-08.html</loc>
     <lastmod>1959-10-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -80,7 +80,7 @@
 
   <!-- 記事09: ジャマイカ ドージコイン ボブスレー -->
   <url>
-    <loc>https://laughingearth.example.com/article-09.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-09.html</loc>
     <lastmod>2014-01-20</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -88,7 +88,7 @@
 
   <!-- 記事10: ジンバブエ 100兆ドル紙幣 -->
   <url>
-    <loc>https://laughingearth.example.com/article-10.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-10.html</loc>
     <lastmod>2009-01-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -96,7 +96,7 @@
 
   <!-- 記事11: コロンビア エスコバルのカバ -->
   <url>
-    <loc>https://laughingearth.example.com/article-11.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-11.html</loc>
     <lastmod>2021-05-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -104,7 +104,7 @@
 
   <!-- 記事12: エルサルバドル ビットコイン法定通貨 -->
   <url>
-    <loc>https://laughingearth.example.com/article-12.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-12.html</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -112,7 +112,7 @@
 
   <!-- 記事13: スペイン ラ・トマティーナ -->
   <url>
-    <loc>https://laughingearth.example.com/article-13.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-13.html</loc>
     <lastmod>1944-08-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -120,7 +120,7 @@
 
   <!-- 記事14: フィリピン ドラキュラ警察 -->
   <url>
-    <loc>https://laughingearth.example.com/article-14.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-14.html</loc>
     <lastmod>2020-04-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -128,7 +128,7 @@
 
   <!-- 記事15: トルクメニスタン 白い車 -->
   <url>
-    <loc>https://laughingearth.example.com/article-15.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-15.html</loc>
     <lastmod>2018-09-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -136,7 +136,7 @@
 
   <!-- 記事16: ペルー タカナクイ -->
   <url>
-    <loc>https://laughingearth.example.com/article-16.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-16.html</loc>
     <lastmod>2018-12-25</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -144,7 +144,7 @@
 
   <!-- 記事17: グアテマラ コメディアン大統領 -->
   <url>
-    <loc>https://laughingearth.example.com/article-17.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-17.html</loc>
     <lastmod>2015-10-25</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -152,7 +152,7 @@
 
   <!-- 記事18: メキシコ チャプリネス -->
   <url>
-    <loc>https://laughingearth.example.com/article-18.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-18.html</loc>
     <lastmod>2013-05-13</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -160,7 +160,7 @@
 
   <!-- 記事19: アルゼンチン オランウータン法的権利 -->
   <url>
-    <loc>https://laughingearth.example.com/article-19.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-19.html</loc>
     <lastmod>2014-12-18</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -168,7 +168,7 @@
 
   <!-- 記事20: 台湾 鮭魚改名 -->
   <url>
-    <loc>https://laughingearth.example.com/article-20.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-20.html</loc>
     <lastmod>2021-03-17</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -176,7 +176,7 @@
 
   <!-- 記事21: サウジアラビア ラクダ美人コンテスト -->
   <url>
-    <loc>https://laughingearth.example.com/article-21.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-21.html</loc>
     <lastmod>2021-01-17</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -184,7 +184,7 @@
 
   <!-- 記事22: フィンランド 世界携帯電話投げ選手権 -->
   <url>
-    <loc>https://laughingearth.example.com/article-22.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-22.html</loc>
     <lastmod>2000-08-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -192,7 +192,7 @@
 
   <!-- 記事23: オーストラリア ワラビーとケシ畑 -->
   <url>
-    <loc>https://laughingearth.example.com/article-23.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-23.html</loc>
     <lastmod>2009-07-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -200,7 +200,7 @@
 
   <!-- 記事24: カナダ メープルシロップ大強盗 -->
   <url>
-    <loc>https://laughingearth.example.com/article-24.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-24.html</loc>
     <lastmod>2012-08-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -208,7 +208,7 @@
 
   <!-- 記事25: 中国 ライオンに犬 -->
   <url>
-    <loc>https://laughingearth.example.com/article-25.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-25.html</loc>
     <lastmod>2013-08-14</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -216,7 +216,7 @@
 
   <!-- 記事26: 中国 オルドス幽霊都市 -->
   <url>
-    <loc>https://laughingearth.example.com/article-26.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-26.html</loc>
     <lastmod>2012-01-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -224,7 +224,7 @@
 
   <!-- 記事27: 中国 ニュー・サウス・チャイナ・モール -->
   <url>
-    <loc>https://laughingearth.example.com/article-27.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-27.html</loc>
     <lastmod>2005-06-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -232,7 +232,7 @@
 
   <!-- 記事28: 中国 空気の缶詰め -->
   <url>
-    <loc>https://laughingearth.example.com/article-28.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-28.html</loc>
     <lastmod>2014-01-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -240,7 +240,7 @@
 
   <!-- 記事29: 中国 千島湖 水没都市獅城 -->
   <url>
-    <loc>https://laughingearth.example.com/article-29.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-29.html</loc>
     <lastmod>2001-01-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -248,7 +248,7 @@
 
   <!-- 記事30: 中国 重慶 釘子戸 -->
   <url>
-    <loc>https://laughingearth.example.com/article-30.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-30.html</loc>
     <lastmod>2007-03-27</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -256,7 +256,7 @@
 
   <!-- 記事31: タイ ロッブリー モンキーバンケット -->
   <url>
-    <loc>https://laughingearth.example.com/article-31.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-31.html</loc>
     <lastmod>2018-10-28</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -264,7 +264,7 @@
 
   <!-- 記事32: タイ チェンマイ 絵描きゾウ -->
   <url>
-    <loc>https://laughingearth.example.com/article-32.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-32.html</loc>
     <lastmod>2014-02-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -272,7 +272,7 @@
 
   <!-- 記事33: インド ラジャスタン カルニマタ寺院 -->
   <url>
-    <loc>https://laughingearth.example.com/article-33.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-33.html</loc>
     <lastmod>2015-01-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -280,7 +280,7 @@
 
   <!-- 記事34: インド ビハール州 外壁登りカンニング -->
   <url>
-    <loc>https://laughingearth.example.com/article-34.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-34.html</loc>
     <lastmod>2015-03-19</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -288,7 +288,7 @@
 
   <!-- 記事35: インド カエル婚 雨乞い -->
   <url>
-    <loc>https://laughingearth.example.com/article-35.html</loc>
+    <loc>https://waraeru-erth.wa-re.netarticle-35.html</loc>
     <lastmod>2017-07-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
