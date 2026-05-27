@@ -102,6 +102,11 @@
   <!-- 記事カードは articles-data.js の ARTICLES_DATA から JS で動的生成 -->
 </div><!-- /.article-grid -->
 
+  <!-- もっと見るボタン -->
+  <div id="load-more-area" hidden>
+    <button id="load-more-btn" class="load-more-btn">もっと見る</button>
+  </div>
+
   <!-- フィルター結果ゼロのとき表示 -->
   <div class="no-results" id="no-results">
     <span class="no-results-emoji">🌏</span>
@@ -137,6 +142,16 @@
   var grid = document.getElementById("article-grid");
   if (!grid || typeof ARTICLES_DATA === "undefined") return;
 
+  /* ═══════════════════════════════════════════════
+     設定
+  ═══════════════════════════════════════════════ */
+  var PAGE_SIZE    = 30;   /* 1回に表示する件数 */
+  var activeRegion = "all";
+  var activeTag    = "all";
+  var offset       = 0;   /* 次に追加するインデックス */
+  var rendered     = [];  /* 現在DOMにあるカード要素 */
+  var svgPending   = new Map(); /* card要素 → SVG文字列（IO待ち） */
+
   /* ── HTML エスケープ ── */
   function escH(s) {
     return String(s)
@@ -146,8 +161,33 @@
       .replace(/"/g, "&quot;");
   }
 
-  /* ── カード動的生成（ARTICLES_DATA が唯一の情報源） ── */
-  ARTICLES_DATA.forEach(function (art) {
+  /* ═══════════════════════════════════════════════
+     Intersection Observer — 遅延 SVG 挿入
+     rootMargin: 200px でビューポート手前からプリロード
+  ═══════════════════════════════════════════════ */
+  var io = (typeof IntersectionObserver !== "undefined")
+    ? new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          var card = entry.target;
+          var svg  = svgPending.get(card);
+          if (svg) {
+            var imgDiv = card.querySelector(".card-image");
+            if (imgDiv) {
+              imgDiv.innerHTML = svg;
+              imgDiv.classList.remove("thumb-loading");
+            }
+            svgPending.delete(card);
+          }
+          io.unobserve(card);
+        });
+      }, { rootMargin: "200px 0px" })
+    : null;  /* IO非対応ブラウザ → 即時挿入にフォールバック */
+
+  /* ═══════════════════════════════════════════════
+     カード生成
+  ═══════════════════════════════════════════════ */
+  function buildCard(art) {
     var tagsHtml = art.tags.map(function (t) {
       return '<span class="tag ' + t.cls + '">' + escH(t.label) + '</span>';
     }).join("");
@@ -157,8 +197,8 @@
     card.setAttribute("data-region", art.region);
     card.setAttribute("data-tags", art.tags.map(function (t) { return t.cls; }).join(" "));
     card.innerHTML =
-      '<div class="card-image">' +
-        (art.thumbSvg || '<span class="thumb-flag">' + art.flag + '</span>') +
+      '<div class="card-image thumb-loading">' +
+        '<span class="thumb-flag">' + art.flag + '</span>' +
       '</div>' +
       '<div class="card-body">' +
         '<div class="card-meta">' +
@@ -173,36 +213,116 @@
       '<div class="card-footer">' +
         '<a href="' + escH(art.url) + '" class="read-more">続きを読む →</a>' +
       '</div>';
-    grid.appendChild(card);
-  });
 
-  /* ── フィルター ── */
-  var cards = Array.prototype.slice.call(grid.querySelectorAll(".article-card"));
-  var activeRegion = "all";
-  var activeTag    = "all";
-
-  function applyFilter() {
-    var visible = 0;
-    cards.forEach(function (card) {
-      var region = card.getAttribute("data-region") || "";
-      var tags   = card.getAttribute("data-tags")   || "";
-      var showR  = (activeRegion === "all" || region === activeRegion);
-      var showT  = (activeTag    === "all" || tags.indexOf(activeTag) !== -1);
-      if (showR && showT) { card.classList.remove("hidden"); visible++; }
-      else                { card.classList.add("hidden"); }
-    });
-    var countEl = document.getElementById("article-count");
-    if (countEl) countEl.innerHTML = "<strong>" + visible + "</strong> 件の記事";
-    var noRes = document.getElementById("no-results");
-    if (noRes) noRes.style.display = (visible === 0) ? "block" : "none";
+    if (art.thumbSvg) {
+      if (io) {
+        svgPending.set(card, art.thumbSvg);
+        io.observe(card);
+      } else {
+        /* フォールバック: IOが使えない場合は即時挿入 */
+        var imgDiv = card.querySelector(".card-image");
+        imgDiv.innerHTML = art.thumbSvg;
+        imgDiv.classList.remove("thumb-loading");
+      }
+    }
+    return card;
   }
 
+  /* ═══════════════════════════════════════════════
+     フィルター
+  ═══════════════════════════════════════════════ */
+  function getFiltered() {
+    return ARTICLES_DATA.filter(function (art) {
+      var matchR = (activeRegion === "all" || art.region === activeRegion);
+      var matchT = (activeTag    === "all" || art.tags.some(function (t) { return t.cls === activeTag; }));
+      return matchR && matchT;
+    });
+  }
+
+  /* ═══════════════════════════════════════════════
+     UI 更新（件数表示・ボタン表示切替）
+  ═══════════════════════════════════════════════ */
+  var loadMoreArea = document.getElementById("load-more-area");
+  var loadMoreBtn  = document.getElementById("load-more-btn");
+  var countEl      = document.getElementById("article-count");
+  var noResEl      = document.getElementById("no-results");
+
+  function updateUI(totalFiltered) {
+    /* 件数表示 */
+    if (countEl) {
+      if (offset >= totalFiltered) {
+        /* 全件表示済み */
+        var label = (totalFiltered === ARTICLES_DATA.length)
+          ? "<strong>" + totalFiltered + "</strong> 件の記事"
+          : "<strong>" + totalFiltered + "</strong> 件（絞り込み中）";
+        countEl.innerHTML = label;
+      } else {
+        /* 一部表示中 */
+        countEl.innerHTML = "<strong>" + offset + " / " + totalFiltered + "</strong> 件を表示"
+          + (totalFiltered < ARTICLES_DATA.length ? "（絞り込み中）" : "");
+      }
+    }
+    /* ゼロ件メッセージ */
+    if (noResEl) noResEl.style.display = (totalFiltered === 0) ? "block" : "none";
+    /* もっと見るボタン */
+    if (loadMoreArea) {
+      var remaining = totalFiltered - offset;
+      loadMoreArea.hidden = (remaining <= 0);
+      if (loadMoreBtn && remaining > 0) {
+        loadMoreBtn.textContent = "もっと見る（残り " + remaining + " 件）";
+      }
+    }
+  }
+
+  /* ═══════════════════════════════════════════════
+     バッチ追加（DOM に PAGE_SIZE 件ずつ追記）
+  ═══════════════════════════════════════════════ */
+  function appendBatch(filtered) {
+    var batch = filtered.slice(offset, offset + PAGE_SIZE);
+    if (batch.length === 0) return;
+    var frag = document.createDocumentFragment();
+    batch.forEach(function (art) {
+      var card = buildCard(art);
+      frag.appendChild(card);
+      rendered.push(card);
+    });
+    grid.appendChild(frag);
+    offset += batch.length;
+  }
+
+  /* ═══════════════════════════════════════════════
+     グリッドをリセットして先頭バッチを描画
+     （フィルター変更時・リセット時に呼ぶ）
+  ═══════════════════════════════════════════════ */
+  function resetGrid() {
+    /* IO 観察中の要素をクリーンアップ */
+    if (io) {
+      rendered.forEach(function (card) {
+        if (svgPending.has(card)) io.unobserve(card);
+      });
+    }
+    svgPending   = new Map();
+    rendered     = [];
+    offset       = 0;
+    grid.innerHTML = "";
+
+    var filtered = getFiltered();
+    appendBatch(filtered);
+    updateUI(filtered.length);
+  }
+
+  /* ─── 初期表示 ─── */
+  resetGrid();
+
+  /* ═══════════════════════════════════════════════
+     イベント登録
+  ═══════════════════════════════════════════════ */
   function handleRegionClick(btn) {
     activeRegion = btn.getAttribute("data-region") || "all";
     document.querySelectorAll(".filter-btn[data-region]").forEach(function (b) {
       b.classList.toggle("active", b === btn);
     });
-    applyFilter();
+    resetGrid();
   }
 
   function handleTagClick(btn) {
@@ -210,7 +330,7 @@
     document.querySelectorAll(".filter-btn[data-tag]").forEach(function (b) {
       b.classList.toggle("active", b === btn);
     });
-    applyFilter();
+    resetGrid();
   }
 
   document.querySelectorAll(".filter-btn[data-region]").forEach(function (btn) {
@@ -231,11 +351,17 @@
       document.querySelectorAll(".filter-btn[data-tag]").forEach(function (b) {
         b.classList.toggle("active", b.getAttribute("data-tag") === "all");
       });
-      applyFilter();
+      resetGrid();
     });
   }
 
-  applyFilter();
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener("click", function () {
+      var filtered = getFiltered();
+      appendBatch(filtered);
+      updateUI(filtered.length);
+    });
+  }
 })();
 </script>
 </body>
