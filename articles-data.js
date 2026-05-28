@@ -1977,6 +1977,375 @@ const ARTICLES_DATA = [
       <rect y="175"  width="400" height="25" fill="#B09850"/>
       <text x="200" y="192" text-anchor="middle" font-size="10" fill="white" font-weight="bold">インド「カエル婚」雨乞い儀式</text>
     </svg>`
+  },
+  {
+    id: 36,
+    url: "article-36.html",
+    flag: "🇧🇩",
+    country: "バングラデシュ・ナラヤンガンジ",
+    region: "アジア",
+    dateLabel: "2026.05.27",
+    dateISO: "2026-05-27",
+    title: "金髪アルビノ水牛「ドナルド・トランプ」、犠牲祭直前に政府介入で動物園へ——「髪型がそっくり」とSNSで世界バズり",
+    description: "2026年5月、バングラデシュで「トランプ大統領に髪型がそっくり」と話題になったアルビノ水牛がイード直前に内務大臣命令で救出され、ダッカ国立動物園に移送された。Reuters・AFP報道。",
+    excerpt: "金髪のアルビノ水牛が「トランプに似てる」とバズり、犠牲祭直前に政府介入で動物園送りに。バングラデシュ内務大臣が直々に救出命令。Reuters・AFP報道。",
+    tags: [
+      { cls: "animals", label: "動物" },
+      { cls: "politics", label: "政治" }
+    ],
+    source: "Reuters / AFP",
+    sourceUrl: "https://en.wikipedia.org/wiki/Donald_Trump_(buffalo)",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#8DC870"/>
+      <rect width="400" height="80" fill="#87CEEB"/>
+      <rect y="80" width="400" height="120" fill="#7AB85A"/>
+      <!-- 水牛の体 -->
+      <ellipse cx="220" cy="145" rx="100" ry="50" fill="#F5E8D8"/>
+      <ellipse cx="300" cy="120" rx="50" ry="42" fill="#F5E8D8"/>
+      <!-- 金髪 -->
+      <path d="M265,95 Q275,80 290,78 Q305,72 315,80 Q325,68 338,75 Q335,92 320,97 Q300,94 280,98 Z" fill="#FFD700"/>
+      <!-- 鼻 -->
+      <ellipse cx="335" cy="135" rx="15" ry="9" fill="#FBBDB0"/>
+      <!-- 目 -->
+      <circle cx="308" cy="110" r="7" fill="white" stroke="#D4705A" stroke-width="1"/>
+      <circle cx="308" cy="110" r="3" fill="#C05040"/>
+      <!-- 角 -->
+      <path d="M278,105 Q260,90 250,78" stroke="#D4C090" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <!-- 見物人 -->
+      <circle cx="80" cy="140" r="10" fill="#C8A070"/>
+      <rect x="74" y="150" width="12" height="28" fill="#E63946" rx="2"/>
+      <!-- ラベル -->
+      <rect y="175" width="400" height="25" fill="rgba(0,0,0,0.6)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="10" fill="#FFD070" font-weight="bold">🇧🇩 金髪アルビノ水牛「ドナルド・トランプ」</text>
+    </svg>`
+  },
+  {
+    id: 37,
+    url: "article-37.html",
+    flag: "🇮🇳",
+    country: "インド・バレーリー",
+    region: "アジア",
+    dateLabel: "2015.12.22",
+    dateISO: "2015-12-22",
+    title: "サルがバスのエンジンをかけてセカンドギアで発進——インド・バレーリー、運転手は昼寝中だった",
+    description: "2015年12月、インド・バレーリーのバス停で昼寝中の運転手のバスにサルが侵入しエンジンを始動。セカンドギアで発進し停車中の2台に衝突。Times of India・UPI報道。",
+    excerpt: "インド・バレーリーでサルがバスのエンジンを始動しセカンドギアで発進。停車中の2台に衝突。運転手は昼寝中だった。Times of India・UPI報道。",
+    tags: [
+      { cls: "animals", label: "動物" },
+      { cls: "crime", label: "事故" }
+    ],
+    source: "Times of India / UPI",
+    sourceUrl: "https://timesofindia.indiatimes.com/city/bareilly/Monkey-drives-bus-rams-it-into-2-other-vehicles/articleshow/50286858.cms",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#87CEEB"/>
+      <rect y="140" width="400" height="60" fill="#888"/>
+      <line x1="0" y1="162" x2="400" y2="162" stroke="white" stroke-width="2" stroke-dasharray="18,12"/>
+      <!-- メインバス -->
+      <rect x="120" y="90" width="200" height="70" fill="#F4A261" rx="6"/>
+      <rect x="135" y="100" width="45" height="30" fill="#B8D8F0" rx="3"/>
+      <rect x="195" y="100" width="45" height="30" fill="#B8D8F0" rx="3"/>
+      <rect x="250" y="93" width="15" height="58" fill="#E08040" rx="3"/>
+      <circle cx="150" cy="163" r="14" fill="#333"/>
+      <circle cx="150" cy="163" r="7" fill="#555"/>
+      <circle cx="240" cy="163" r="14" fill="#333"/>
+      <circle cx="240" cy="163" r="7" fill="#555"/>
+      <!-- サル（運転席） -->
+      <circle cx="148" cy="110" r="10" fill="#C8904A"/>
+      <circle cx="148" cy="101" r="7" fill="#C8904A"/>
+      <circle cx="144" cy="99" r="2" fill="#333"/>
+      <circle cx="152" cy="99" r="2" fill="#333"/>
+      <!-- 速度線 -->
+      <line x1="265" y1="110" x2="295" y2="106" stroke="#FF4444" stroke-width="2" stroke-dasharray="5,3"/>
+      <line x1="265" y1="120" x2="295" y2="120" stroke="#FF4444" stroke-width="2" stroke-dasharray="5,3"/>
+      <!-- 衝突バス -->
+      <rect x="20" y="100" width="110" height="65" fill="#4488CC" rx="5"/>
+      <text x="75" y="138" text-anchor="middle" font-size="20">💥</text>
+      <!-- ZZZ昼寝 -->
+      <text x="220" y="112" font-size="14" fill="#FFE082" font-weight="bold">Z z</text>
+      <!-- ラベル -->
+      <rect y="178" width="400" height="22" fill="rgba(0,0,0,0.6)"/>
+      <text x="200" y="193" text-anchor="middle" font-size="9" fill="#FFD070" font-weight="bold">🇮🇳 バレーリー「サル無免許運転」2015年</text>
+    </svg>`
+  },
+  {
+    id: 38,
+    url: "article-38.html",
+    flag: "🇹🇭",
+    country: "タイ・ロッブリー県",
+    region: "アジア",
+    dateLabel: "毎年11月最終日曜日",
+    dateISO: "1989-11-01",
+    title: "2,000匹のサルに2トンのご馳走——タイ・ロッブリー「猿のビュッフェ祭り」、起源はホテル経営者の金運祈願",
+    description: "タイ・ロッブリー県で毎年11月に開催される「モンキー・ビュッフェ・フェスティバル」。2,000匹超のカニクイザルに2トン以上の食事が振る舞われる。1989年にホテル経営者が金運祈願で始めた。BBC報道。",
+    excerpt: "タイ・ロッブリーで毎年11月、2,000匹のサルに2トンの果物・もち米が振る舞われる世界最大の「猿の宴」。起源は1989年、ホテル経営者の金運祈願だった。BBC報道。",
+    tags: [
+      { cls: "culture", label: "文化" },
+      { cls: "animals", label: "動物" },
+      { cls: "food", label: "食" }
+    ],
+    source: "BBC / Thailand NOW",
+    sourceUrl: "https://www.thailandnow.in.th/event/lopburi-monkey-festival/",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#87CEEB"/>
+      <rect y="90" width="400" height="110" fill="#8DC870"/>
+      <!-- 遺跡 -->
+      <rect x="150" y="40" width="100" height="70" fill="#C8A060"/>
+      <rect x="160" y="20" width="28" height="55" fill="#C8A060" rx="3"/>
+      <polygon points="174,5 160,25 188,25" fill="#B89040"/>
+      <rect x="200" y="14" width="28" height="58" fill="#C8A060" rx="3"/>
+      <polygon points="214,0 200,20 228,20" fill="#B89040"/>
+      <rect x="240" y="20" width="28" height="50" fill="#C8A060" rx="3"/>
+      <polygon points="254,5 240,25 268,25" fill="#B89040"/>
+      <!-- ビュッフェテーブル -->
+      <rect x="60" y="110" width="280" height="10" fill="#8B4513" rx="3"/>
+      <rect x="65" y="120" width="270" height="45" fill="#DEB887" rx="3"/>
+      <!-- 果物 -->
+      <ellipse cx="120" cy="115" rx="18" ry="9" fill="#FFD700"/>
+      <ellipse cx="175" cy="114" rx="20" ry="10" fill="#FF6060"/>
+      <ellipse cx="240" cy="115" rx="18" ry="10" fill="#FFA040"/>
+      <polygon points="310,105 290,125 330,125" fill="white"/>
+      <!-- サル絵文字 -->
+      <text x="95" y="145" font-size="14">🐒</text>
+      <text x="140" y="142" font-size="13">🐒</text>
+      <text x="195" y="145" font-size="14">🐒</text>
+      <text x="255" y="143" font-size="13">🐒</text>
+      <text x="305" y="145" font-size="14">🐒</text>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.6)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="9" fill="#FFD070" font-weight="bold">🇹🇭 ロッブリー 猿のビュッフェ祭り（1989〜）</text>
+    </svg>`
+  },
+  {
+    id: 39,
+    url: "article-39.html",
+    flag: "🇴🇲",
+    country: "オマーン・アル=ムサンナ",
+    region: "アジア",
+    dateLabel: "2026.02",
+    dateISO: "2026-02-01",
+    title: "ラクダ美人コンテストで「コブ膨張」「唇ヒアルロン酸」発覚——オマーンで20頭が整形手術で失格、SNSでは「ラクダ版カーダシアン」",
+    description: "2026年2月、オマーンのラクダ美人コンテストで20頭がボトックス注射、唇フィラー、シリコンによるコブ膨張などの美容整形で失格処分。SNSでは「Camel Kardashians」と呼ばれ話題に。Forbes・VICE報道。",
+    excerpt: "2026年2月、オマーンのラクダ美人コンテストで20頭がボトックス・フィラー・「コブ膨張」で失格。SNSでは「ラクダ版カーダシアン」と命名。Forbes・VICE報道。",
+    tags: [
+      { cls: "animals", label: "動物" },
+      { cls: "culture", label: "文化" }
+    ],
+    source: "Forbes / VICE / People",
+    sourceUrl: "https://www.forbes.com/sites/tanyaakim/2026/02/24/another-camel-beauty-contest-is-rocked-by-a-botox-cheating-scandal/",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#F5D06A"/>
+      <rect y="100" width="400" height="100" fill="#E8C87A"/>
+      <!-- 砂丘 -->
+      <ellipse cx="80" cy="105" rx="120" ry="18" fill="#D4A840"/>
+      <ellipse cx="350" cy="108" rx="100" ry="15" fill="#D4A840"/>
+      <!-- ラクダ体 -->
+      <ellipse cx="210" cy="155" rx="90" ry="45" fill="#C8964A"/>
+      <!-- 大きなコブ -->
+      <ellipse cx="195" cy="108" rx="45" ry="40" fill="#B87830"/>
+      <ellipse cx="240" cy="115" rx="35" ry="33" fill="#B87830"/>
+      <text x="210" y="114" text-anchor="middle" font-size="11">💉</text>
+      <!-- 首・頭 -->
+      <rect x="265" y="120" width="28" height="45" fill="#C8964A" rx="5"/>
+      <ellipse cx="290" cy="112" rx="32" ry="26" fill="#C8964A"/>
+      <!-- 大きな唇 -->
+      <ellipse cx="314" cy="127" rx="16" ry="9" fill="#FF8070"/>
+      <!-- 目 -->
+      <ellipse cx="298" cy="106" rx="6" ry="7" fill="white" stroke="#555" stroke-width="1"/>
+      <circle cx="298" cy="107" r="3" fill="#333"/>
+      <!-- 失格スタンプ -->
+      <circle cx="340" cy="75" r="25" fill="none" stroke="#E84040" stroke-width="3"/>
+      <line x1="322" y1="57" x2="358" y2="93" stroke="#E84040" stroke-width="3"/>
+      <line x1="358" y1="57" x2="322" y2="93" stroke="#E84040" stroke-width="3"/>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.6)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="9" fill="#FFD070" font-weight="bold">🇴🇲 ラクダ整形スキャンダル「Camel Kardashians」</text>
+    </svg>`
+  },
+  {
+    id: 40,
+    url: "article-40.html",
+    flag: "🇮🇩",
+    country: "インドネシア",
+    region: "アジア",
+    dateLabel: "2020年頃",
+    dateISO: "2020-01-01",
+    title: "「借金3万8千円を踏み倒すため死んだふり」——インドネシアの女性がFacebookに遺体写真を投稿させて債権者を撃退",
+    description: "インドネシアの女性が約270ドルの借金を逃れるため、遺体のふりをして写真を撮影し息子にFacebookへ投稿させた。債権者は驚いて取り立てを断念したが、SNSで拡散し発覚。Oddity Central報道。",
+    excerpt: "インドネシアの女性が約3万8千円の借金逃れのため死んだふりをしてFacebookに投稿。債権者は撃退したがSNSで拡散しバレた。Oddity Central報道。",
+    tags: [
+      { cls: "crime", label: "詐欺" },
+      { cls: "culture", label: "文化" }
+    ],
+    source: "Oddity Central",
+    sourceUrl: "https://www.odditycentral.com/tag/indonesia",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#F5E8D0"/>
+      <rect width="400" height="120" fill="#EDD9B0"/>
+      <rect y="160" width="400" height="40" fill="#C4A36A"/>
+      <!-- マット -->
+      <rect x="70" y="135" width="260" height="40" fill="#8B7355" rx="4"/>
+      <!-- 横になっている人 -->
+      <ellipse cx="200" cy="148" rx="120" ry="14" fill="#F0C090"/>
+      <circle cx="305" cy="143" r="17" fill="#D4A070"/>
+      <line x1="298" y1="140" x2="308" y2="140" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+      <!-- 花 -->
+      <circle cx="170" cy="143" r="4" fill="#FF7090"/>
+      <circle cx="240" cy="142" r="4" fill="#FF7090"/>
+      <!-- Facebook投稿 -->
+      <rect x="290" y="60" width="100" height="80" fill="white" rx="5" stroke="#1877F2" stroke-width="2"/>
+      <rect x="290" y="60" width="100" height="22" fill="#1877F2" rx="4"/>
+      <text x="340" y="75" text-anchor="middle" font-size="7" fill="white" font-weight="bold">Facebook</text>
+      <text x="340" y="98" text-anchor="middle" font-size="7" fill="#333">「母は</text>
+      <text x="340" y="110" text-anchor="middle" font-size="7" fill="#333">亡くなりました」</text>
+      <text x="340" y="130" text-anchor="middle" font-size="9" fill="#1877F2">👍 156</text>
+      <!-- 息子（撮影） -->
+      <circle cx="60" cy="125" r="12" fill="#C8A070"/>
+      <rect x="42" y="112" width="18" height="13" fill="#333" rx="2"/>
+      <rect x="44" y="114" width="14" height="9" fill="#87CEEB" rx="1"/>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.6)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="9" fill="#FFD070" font-weight="bold">🇮🇩 インドネシア「借金逃れ死んだふり」作戦</text>
+    </svg>`
+  },
+  {
+    id: 41,
+    url: "article-41.html",
+    flag: "🇰🇪",
+    country: "ケニア・ナイロビ",
+    region: "アフリカ",
+    dateLabel: "2020.04",
+    dateISO: "2020-04-01",
+    title: "コロナ外出禁止令で人間が消えた道路にライオンが堂々と昼寝——ナイロビ国立公園のライオンが市街地を「占拠」",
+    description: "2020年4月、コロナ外出禁止令下のケニア・ナイロビで、ナイロビ国立公園のライオンたちが人気のない市街地の道路に出没し堂々と昼寝する姿をKWS（ケニア野生生物局）が撮影・公開。BBC・CNN報道。",
+    excerpt: "コロナ外出禁止令で人が消えたナイロビの道路にライオンが出没し堂々と昼寝。ケニア野生生物局が写真を公開し世界に衝撃。BBC・CNN報道。",
+    tags: [
+      { cls: "animals", label: "動物" },
+      { cls: "culture", label: "自然" }
+    ],
+    source: "BBC / CNN",
+    sourceUrl: "https://www.bbc.com/news/world-africa-52266395",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#F4A460"/>
+      <rect y="100" width="400" height="100" fill="#707070"/>
+      <line x1="0" y1="142" x2="400" y2="142" stroke="white" stroke-width="2" stroke-dasharray="18,12"/>
+      <!-- ナイロビビル（シルエット） -->
+      <rect x="10" y="55" width="20" height="50" fill="#555" opacity="0.6"/>
+      <rect x="40" y="42" width="18" height="62" fill="#666" opacity="0.6"/>
+      <rect x="68" y="50" width="22" height="55" fill="#555" opacity="0.6"/>
+      <rect x="340" y="45" width="22" height="60" fill="#555" opacity="0.6"/>
+      <rect x="370" y="35" width="25" height="70" fill="#666" opacity="0.6"/>
+      <!-- ライオン（道路に寝転がる） -->
+      <ellipse cx="210" cy="158" rx="95" ry="33" fill="#C8A030"/>
+      <!-- 頭 -->
+      <circle cx="290" cy="148" rx="30" fill="#C8A030"/>
+      <circle cx="290" cy="148" rx="37" fill="#8B5E20" opacity="0.65"/>
+      <circle cx="290" cy="146" rx="26" fill="#C8A030"/>
+      <!-- 目（半目） -->
+      <ellipse cx="280" cy="143" rx="6" ry="4" fill="#333"/>
+      <ellipse cx="300" cy="143" rx="6" ry="4" fill="#333"/>
+      <!-- 尻尾 -->
+      <path d="M120,155 Q95,142 88,158 Q82,170 96,172" stroke="#C8A030" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <circle cx="96" cy="172" r="5" fill="#8B5E20"/>
+      <!-- ZZZ -->
+      <text x="325" y="128" font-size="14" fill="#FFE082" font-weight="bold">Z z</text>
+      <!-- ラベル -->
+      <rect y="178" width="400" height="22" fill="rgba(0,0,0,0.65)"/>
+      <text x="200" y="193" text-anchor="middle" font-size="9" fill="#FFD070" font-weight="bold">🇰🇪 ナイロビ 人間不在→ライオンが道路占拠 2020年</text>
+    </svg>`
+  },
+  {
+    id: 42,
+    url: "article-42.html",
+    flag: "🇨🇳",
+    country: "中国・雲南省昆明",
+    region: "アジア",
+    dateLabel: "2011.07",
+    dateISO: "2011-07-01",
+    title: "従業員すら本物だと信じていた——中国・昆明の「偽アップルストア」が完璧すぎて世界騒然",
+    description: "2011年7月、中国・昆明で発見された偽アップルストアが世界的話題に。木製螺旋階段、青いTシャツの店員、Genius Barまで完全再現。従業員すら「自分はApple社員」と信じていた。BBC・Reuters報道。",
+    excerpt: "2011年、中国・昆明で偽アップルストアが発見。内装・制服・Genius Barまで完全コピー。従業員すら自分がApple社員だと信じていた衝撃の事件。BBC報道。",
+    tags: [
+      { cls: "crime", label: "詐欺" },
+      { cls: "culture", label: "テクノロジー" }
+    ],
+    source: "BBC News / Reuters",
+    sourceUrl: "https://www.bbc.com/news/technology-14352680",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#F5F5F5"/>
+      <!-- 店舗外観 -->
+      <rect x="50" y="20" width="300" height="155" fill="#E8E8E8" stroke="#CCC" stroke-width="2"/>
+      <rect x="60" y="40" width="280" height="130" fill="white"/>
+      <!-- Appleロゴ風（×マーク付き） -->
+      <circle cx="200" cy="35" rx="15" fill="#999"/>
+      <rect x="193" y="22" width="10" height="10" fill="#E8E8E8"/>
+      <circle cx="200" cy="35" rx="10" fill="#999"/>
+      <rect x="190" y="30" width="20" height="12" fill="#E8E8E8"/>
+      <text x="218" y="38" font-size="10" fill="#E84040">❌</text>
+      <!-- 展示台 -->
+      <rect x="70" y="110" width="80" height="6" fill="#D0D0D0" rx="2"/>
+      <rect x="170" y="110" width="80" height="6" fill="#D0D0D0" rx="2"/>
+      <rect x="270" y="110" width="60" height="6" fill="#D0D0D0" rx="2"/>
+      <!-- 青Tシャツ店員 -->
+      <circle cx="100" cy="138" r="9" fill="#F0C090"/>
+      <rect x="94" y="147" width="12" height="20" fill="#0071E3" rx="2"/>
+      <circle cx="195" cy="136" r="9" fill="#D4A070"/>
+      <rect x="189" y="145" width="12" height="20" fill="#0071E3" rx="2"/>
+      <circle cx="290" cy="137" r="9" fill="#C8A070"/>
+      <rect x="284" y="146" width="12" height="20" fill="#0071E3" rx="2"/>
+      <!-- FAKEスタンプ -->
+      <rect x="115" y="65" width="70" height="32" fill="none" stroke="#E84040" stroke-width="3" rx="4" transform="rotate(-12,150,81)"/>
+      <text x="150" y="84" text-anchor="middle" font-size="18" fill="#E84040" font-weight="bold" transform="rotate(-12,150,81)">FAKE</text>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.6)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="9" fill="#FFD070" font-weight="bold">🇨🇳 昆明「完璧すぎる偽アップルストア」2011年</text>
+    </svg>`
+  },
+  {
+    id: 43,
+    url: "article-43.html",
+    flag: "🇰🇷",
+    country: "韓国・ソウル",
+    region: "アジア",
+    dateLabel: "2026.05.18",
+    dateISO: "2026-05-18",
+    title: "スタバ韓国「タンク・デー」が光州事件記念日と重なり大炎上——CEO即日解任、大統領も激怒、全国ボイコットに発展",
+    description: "2026年5月18日、スターバックス韓国が「タンク・デー」タンブラーキャンペーンを開始。同日は光州事件の記念日。大統領が激怒しCEOは即日解任。全国規模のボイコットに発展。CNBC・Reuters報道。",
+    excerpt: "スタバ韓国が「タンク・デー」キャンペーンを光州事件記念日に開始し大炎上。大統領が「下劣な商人」と激怒、CEOは即日解任。CNBC・Reuters報道。",
+    tags: [
+      { cls: "politics", label: "政治" },
+      { cls: "culture", label: "文化" }
+    ],
+    source: "CNBC / Reuters / Al Jazeera",
+    sourceUrl: "https://www.cnbc.com/2026/05/19/starbucks-korea-head-fired-after-tank-day-promotion-sparks-public-uproar.html",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#1A1A2E"/>
+      <!-- 炎 -->
+      <ellipse cx="200" cy="195" rx="200" ry="30" fill="#FF6B00" opacity="0.35"/>
+      <path d="M80,185 Q70,145 90,128 Q85,158 108,145 Q96,175 120,162 Q110,185 80,185 Z" fill="#FF6B00"/>
+      <path d="M320,180 Q330,140 310,125 Q315,155 292,142 Q304,170 280,158 Q290,182 320,180 Z" fill="#FF6B00"/>
+      <!-- スタバカップ -->
+      <path d="M155,48 L163,165 L237,165 L245,48 Z" fill="#00704A"/>
+      <ellipse cx="200" cy="48" rx="45" ry="9" fill="#1E3932"/>
+      <circle cx="200" cy="100" rx="32" fill="#1E3932"/>
+      <circle cx="200" cy="100" rx="26" fill="#00704A"/>
+      <circle cx="200" cy="100" rx="20" fill="#1E3932"/>
+      <text x="200" y="105" text-anchor="middle" font-size="14" fill="#CBA135">☕</text>
+      <!-- タンクデザイン -->
+      <rect x="165" y="138" width="70" height="25" fill="#556B2F" rx="3"/>
+      <ellipse cx="172" cy="151" rx="11" ry="9" fill="#444"/>
+      <ellipse cx="228" cy="151" rx="11" ry="9" fill="#444"/>
+      <rect x="205" y="134" width="35" height="7" fill="#4A5A30" rx="2"/>
+      <!-- 怒りの炎テキスト -->
+      <text x="80" y="55" text-anchor="middle" font-size="22" fill="#FF4500">🔥</text>
+      <text x="320" y="55" text-anchor="middle" font-size="22" fill="#FF4500">🔥</text>
+      <!-- CEO解任 -->
+      <rect x="270" y="68" width="120" height="40" fill="rgba(255,255,255,0.9)" rx="5" stroke="#E84040" stroke-width="1.5"/>
+      <text x="330" y="84" text-anchor="middle" font-size="8" fill="#E84040" font-weight="bold">CEO 即日解任</text>
+      <text x="330" y="99" text-anchor="middle" font-size="7.5" fill="#333">CNBC / Reuters</text>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇰🇷 スタバ韓国「タンク・デー」炎上→CEO解任 2026.5.18</text>
+    </svg>`
   }
 ];
 
