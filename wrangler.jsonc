@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "waraeru-earth",
+  "name": "waeaeru-erth",
   "compatibility_date": "2026-05-29",
   "observability": {
     "enabled": true
