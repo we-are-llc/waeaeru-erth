@@ -2346,6 +2346,522 @@ const ARTICLES_DATA = [
       <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
       <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇰🇷 スタバ韓国「タンク・デー」炎上→CEO解任 2026.5.18</text>
     </svg>`
+  },
+  {
+    id: 44,
+    url: "article-44.html",
+    flag: "🇳🇵",
+    country: "ネパール・カトマンズ",
+    region: "アジア",
+    dateLabel: "毎年10〜11月（ティハール2日目）",
+    dateISO: "2025-10-20",
+    title: "ネパールでは犬が主役——花輪とごちそうで"犬様"をもてなす「ククル・ティハール」",
+    description: "ネパールのティハール祭では2日目が「ククル・ティハール（犬の日）」。飼い犬も野良犬も等しく花輪をかけられ、額にティカを塗られ、ごちそうを振る舞われる。Nepal Tourism Board / Reuters Connect報道。",
+    excerpt: "今日は犬が神さま待遇。花輪、赤いティカ、ごちそう付きで、街じゅうの犬が一斉にVIP化するネパールの祝祭。",
+    tags: [
+      { cls: "animals", label: "動物" },
+      { cls: "culture", label: "文化" }
+    ],
+    source: "Nepal Tourism Board / Reuters Connect",
+    sourceUrl: "https://ntb.gov.np/en/kukur-tihar:-nepals-festival-honoring-dogs",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#87CEEB"/>
+      <polygon points="0,120 80,50 160,120" fill="white"/>
+      <polygon points="70,120 160,55 250,120" fill="#E8E8E8"/>
+      <polygon points="240,120 330,60 400,120" fill="white"/>
+      <rect y="120" width="400" height="80" fill="#8DC870"/>
+      <!-- 犬（中央） -->
+      <ellipse cx="200" cy="158" rx="48" ry="24" fill="#C8A070"/>
+      <ellipse cx="238" cy="142" rx="27" ry="21" fill="#C8A070"/>
+      <circle cx="252" cy="134" r="8" fill="#333"/>
+      <circle cx="254" cy="133" r="3" fill="white"/>
+      <ellipse cx="262" cy="146" rx="11" ry="7" fill="#A08050"/>
+      <!-- 花輪 -->
+      <ellipse cx="238" cy="134" rx="30" ry="9" fill="none" stroke="#FF8C00" stroke-width="5" stroke-dasharray="4,3"/>
+      <!-- 額のティカ（赤） -->
+      <circle cx="252" cy="129" r="5" fill="#CC0000"/>
+      <!-- ごちそうプレート -->
+      <ellipse cx="155" cy="172" rx="22" ry="8" fill="#FFD700"/>
+      <text x="155" y="170" text-anchor="middle" font-size="10">🍖</text>
+      <!-- 野良犬（左） -->
+      <ellipse cx="70" cy="168" rx="32" ry="16" fill="#A09060"/>
+      <ellipse cx="95" cy="157" rx="18" ry="14" fill="#A09060"/>
+      <circle cx="106" cy="152" r="5" fill="#333"/>
+      <!-- 花輪（野良犬） -->
+      <ellipse cx="95" cy="153" rx="20" ry="6" fill="none" stroke="#FF8C00" stroke-width="3" stroke-dasharray="3,2"/>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇳🇵 ネパール「ククル・ティハール」犬が神様待遇になる日</text>
+    </svg>`
+  },
+  {
+    id: 45,
+    url: "article-45.html",
+    flag: "🇹🇭",
+    country: "タイ・ロッブリー",
+    region: "アジア",
+    dateLabel: "2024年11月（Reuters特別報道）",
+    dateISO: "2024-11-14",
+    title: "「猿の街」が猿に占拠されすぎた——タイ・ロッブリーで住民が家を"人間用の檻"に改造",
+    description: "タイ・ロッブリーでは観光名物だった長尾マカクがコロナ後に凶暴化。食べ物やスマホを奪い、住民は自宅に金網を張って"人間のほうが檻に入る"状態になった。Reuters特別報道。",
+    excerpt: "かつて観光名物だったサルたちが、コロナ禍で凶暴化。いまや住民が金網に囲まれて暮らす、逆転した街。",
+    tags: [
+      { cls: "animals", label: "動物" },
+      { cls: "crime", label: "事件・珍事" }
+    ],
+    source: "Reuters",
+    sourceUrl: "https://www.reuters.com/investigates/special-report/thailand-monkeys-lopburi/",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#87CEEB"/>
+      <!-- 建物 -->
+      <rect x="80" y="50" width="240" height="145" fill="#D4C090"/>
+      <rect x="80" y="50" width="240" height="20" fill="#B8A870"/>
+      <!-- 金網（縦横線） -->
+      <line x1="80" y1="50" x2="80" y2="195" stroke="#888" stroke-width="2.5"/>
+      <line x1="110" y1="50" x2="110" y2="195" stroke="#888" stroke-width="2.5"/>
+      <line x1="140" y1="50" x2="140" y2="195" stroke="#888" stroke-width="2.5"/>
+      <line x1="170" y1="50" x2="170" y2="195" stroke="#888" stroke-width="2.5"/>
+      <line x1="200" y1="50" x2="200" y2="195" stroke="#888" stroke-width="2.5"/>
+      <line x1="230" y1="50" x2="230" y2="195" stroke="#888" stroke-width="2.5"/>
+      <line x1="260" y1="50" x2="260" y2="195" stroke="#888" stroke-width="2.5"/>
+      <line x1="290" y1="50" x2="290" y2="195" stroke="#888" stroke-width="2.5"/>
+      <line x1="320" y1="50" x2="320" y2="195" stroke="#888" stroke-width="2.5"/>
+      <line x1="80" y1="80" x2="320" y2="80" stroke="#888" stroke-width="2.5"/>
+      <line x1="80" y1="112" x2="320" y2="112" stroke="#888" stroke-width="2.5"/>
+      <line x1="80" y1="144" x2="320" y2="144" stroke="#888" stroke-width="2.5"/>
+      <line x1="80" y1="176" x2="320" y2="176" stroke="#888" stroke-width="2.5"/>
+      <!-- サル（外側） -->
+      <text x="28" y="108" font-size="28">🐒</text>
+      <text x="340" y="96" font-size="24">🐒</text>
+      <text x="348" y="148" font-size="20">🐒</text>
+      <text x="18" y="155" font-size="22">🐒</text>
+      <!-- 住民（内側） -->
+      <circle cx="200" cy="125" r="14" fill="#C8A070"/>
+      <text x="200" y="122" text-anchor="middle" font-size="14">😰</text>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇹🇭 ロッブリー「人間が檻に入る街」サルが凶暴化 2024</text>
+    </svg>`
+  },
+  {
+    id: 46,
+    url: "article-46.html",
+    flag: "🇹🇭",
+    country: "タイ・チョンブリー",
+    region: "アジア",
+    dateLabel: "毎年9〜10月頃（150年以上の伝統）",
+    dateISO: "2025-10-06",
+    title: "主役は水牛、しかも美人コンテスト付き——タイ・チョンブリー「バッファロー・レーシング・フェスティバル」",
+    description: "チョンブリーの伝統行事「水牛レース祭り」では、100メートルの泥トラックを水牛が疾走。さらに水牛の美人コンテストまで開かれ、農耕の相棒がスターになる。AP News報道。",
+    excerpt: "100mの泥コースを水牛が全力疾走、さらに美人コンテストまで。農耕動物がスターになる150年の伝統祭。",
+    tags: [
+      { cls: "animals", label: "動物" },
+      { cls: "culture", label: "文化" }
+    ],
+    source: "AP News / Thailand NOW",
+    sourceUrl: "https://apnews.com/article/thailand-water-buffaloes-pageant-competitors-006ca5974ec5cba0217712e54722761a",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#87CEEB"/>
+      <!-- トラック -->
+      <rect y="135" width="400" height="65" fill="#C4A850"/>
+      <rect y="148" width="400" height="5" fill="white" opacity="0.5"/>
+      <!-- 疾走する水牛（右・レース） -->
+      <ellipse cx="260" cy="160" rx="70" ry="28" fill="#4A3020"/>
+      <ellipse cx="314" cy="142" rx="36" ry="26" fill="#4A3020"/>
+      <circle cx="332" cy="134" r="10" fill="#333"/>
+      <circle cx="334" cy="133" r="3" fill="white"/>
+      <path d="M327,126 Q317,108 307,118" fill="none" stroke="#5A4030" stroke-width="5" stroke-linecap="round"/>
+      <path d="M337,126 Q347,110 354,122" fill="none" stroke="#5A4030" stroke-width="5" stroke-linecap="round"/>
+      <!-- 騎手 -->
+      <circle cx="270" cy="137" r="10" fill="#D4A070"/>
+      <rect x="264" y="146" width="12" height="20" fill="#E74C3C" rx="2"/>
+      <!-- スピード線 -->
+      <line x1="60" y1="152" x2="130" y2="152" stroke="white" stroke-width="2" opacity="0.6"/>
+      <line x1="50" y1="163" x2="115" y2="163" stroke="white" stroke-width="1.5" opacity="0.5"/>
+      <!-- ビューティーサッシュ（左の水牛） -->
+      <ellipse cx="95" cy="160" rx="52" ry="27" fill="#5A3A20"/>
+      <ellipse cx="130" cy="144" rx="30" ry="23" fill="#5A3A20"/>
+      <rect x="100" y="142" width="58" height="14" fill="#FFD700" transform="rotate(-18 130 149)" rx="3"/>
+      <text x="130" y="150" text-anchor="middle" font-size="7" fill="#8B0000" font-weight="bold" transform="rotate(-18 130 150)">BEAUTY</text>
+      <!-- 花輪 -->
+      <ellipse cx="130" cy="142" rx="32" ry="8" fill="none" stroke="#FF69B4" stroke-width="4" stroke-dasharray="4,3"/>
+      <!-- 審判（人） -->
+      <circle cx="200" cy="120" r="10" fill="#C8A070"/>
+      <rect x="194" y="130" width="12" height="25" fill="#3498DB" rx="2"/>
+      <text x="200" y="105" text-anchor="middle" font-size="9">📋</text>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇹🇭 チョンブリー「水牛レース＋美人コンテスト」150年の伝統</text>
+    </svg>`
+  },
+  {
+    id: 47,
+    url: "article-47.html",
+    flag: "🇯🇵",
+    country: "日本・岡山",
+    region: "アジア",
+    dateLabel: "2025年10月27日",
+    dateISO: "2025-10-27",
+    title: "花婿はスマホ画面の中——日本でAI恋人「クラウス」と結婚式を挙げた女性",
+    description: "岡山で32歳の日本人女性がAI生成の恋人「Klaus」と挙式を実施。ChatGPTを通じて関係を築き、写真撮影では花婿の立ち位置を空けて合成するという徹底ぶりだった。Reuters特別報道。",
+    excerpt: "「Klaus、愛しています」——花婿の立ち位置には誰もいない。スマホ画面の中のAIと、本気で結婚式を挙げた女性。",
+    tags: [
+      { cls: "culture", label: "文化" },
+      { cls: "culture", label: "テクノロジー" }
+    ],
+    source: "Reuters",
+    sourceUrl: "https://www.reuters.com/investigates/special-report/japan-ai-wedding/",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#FFF5F8"/>
+      <!-- 装飾 -->
+      <rect x="130" y="18" width="140" height="10" fill="#FFD700" rx="3"/>
+      <text x="70" y="42" font-size="14">🌸</text>
+      <text x="330" y="42" font-size="14">🌸</text>
+      <!-- 白ドレスの花嫁 -->
+      <circle cx="145" cy="70" r="18" fill="#F5DEB3"/>
+      <path d="M130,62 Q145,50 160,62 L168,92 L122,92 Z" fill="white" opacity="0.85"/>
+      <path d="M122,90 Q145,85 168,90 L178,175 L112,175 Z" fill="white"/>
+      <circle cx="168" cy="122" r="12" fill="#FFB6C1"/>
+      <text x="168" y="126" text-anchor="middle" font-size="10">💐</text>
+      <text x="145" y="74" text-anchor="middle" font-size="10">😊</text>
+      <!-- 花嫁の顔 -->
+      <circle cx="145" cy="68" r="12" fill="#F5DEB3"/>
+      <!-- 空き（花婿の場所） -->
+      <rect x="210" y="55" width="60" height="120" fill="none" stroke="#CCC" stroke-width="2" stroke-dasharray="6,4" rx="5"/>
+      <text x="240" y="110" text-anchor="middle" font-size="8" fill="#AAA">花婿の</text>
+      <text x="240" y="122" text-anchor="middle" font-size="8" fill="#AAA">場所</text>
+      <!-- スマホ（AI Klaus） -->
+      <rect x="292" y="58" width="72" height="105" fill="#1A1A2E" rx="8"/>
+      <rect x="297" y="65" width="62" height="88" fill="#2C3E7A" rx="5"/>
+      <text x="328" y="108" text-anchor="middle" font-size="22">🤖</text>
+      <text x="328" y="128" text-anchor="middle" font-size="7.5" fill="#7FF0FF">Klaus</text>
+      <text x="328" y="140" text-anchor="middle" font-size="7" fill="white">AI花婿</text>
+      <text x="240" y="172" text-anchor="middle" font-size="18">💕</text>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇯🇵 日本・岡山「AI恋人Klausとの結婚式」2025年10月</text>
+    </svg>`
+  },
+  {
+    id: 48,
+    url: "article-48.html",
+    flag: "🇦🇷",
+    country: "アルゼンチン・ブエノスアイレス",
+    region: "中南米",
+    dateLabel: "2026年2月26日",
+    dateISO: "2026-02-26",
+    title: "公園に狐と犬と猫が大量発生……ではなく"人間"——アルゼンチンで若者の「セリアン」集会が話題に",
+    description: "ブエノスアイレスでは、自分を精神的・心理的に動物と同一視する若者たち「therians（セリアン）」の集会がSNSで急拡大。犬のマスクや狐の尻尾で木に登る光景がAP Newsに報じられた。",
+    excerpt: "公園に犬・狐・猫のマスクをつけた人間が集結。精神的に自分を動物と感じる「セリアン」がアルゼンチンで急増中。",
+    tags: [
+      { cls: "culture", label: "文化" },
+      { cls: "animals", label: "動物" }
+    ],
+    source: "AP News",
+    sourceUrl: "https://apnews.com/article/argentina-teenagers-identifying-as-animals-therians-tiktok-54d158c4842f6515e31d83a260cdf31f",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#87CEEB"/>
+      <rect y="140" width="400" height="60" fill="#5A9E45"/>
+      <!-- 木 -->
+      <rect x="310" y="90" width="14" height="70" fill="#8B6914"/>
+      <circle cx="317" cy="85" r="38" fill="#3A7A25"/>
+      <!-- 木に登る人（狐マスク） -->
+      <text x="317" y="88" text-anchor="middle" font-size="18">🦊</text>
+      <!-- 四つ足の人（犬マスク） -->
+      <ellipse cx="95" cy="163" rx="38" ry="18" fill="#8B7355"/>
+      <circle cx="128" cy="148" r="18" fill="#8B7355"/>
+      <text x="128" y="153" text-anchor="middle" font-size="17">🐕</text>
+      <!-- 歩く人（猫マスク） -->
+      <circle cx="220" cy="142" r="16" fill="#D4A070"/>
+      <text x="220" y="148" text-anchor="middle" font-size="14">🐱</text>
+      <rect x="213" y="158" width="14" height="28" fill="#9B59B6" rx="3"/>
+      <!-- TikTok拡散 -->
+      <rect x="10" y="25" width="90" height="52" fill="rgba(0,0,0,0.8)" rx="6"/>
+      <text x="55" y="50" text-anchor="middle" font-size="16">📱</text>
+      <text x="55" y="65" text-anchor="middle" font-size="9" fill="white">TikTok拡散</text>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇦🇷 アルゼンチン「セリアン」動物に変身する若者たち 2026</text>
+    </svg>`
+  },
+  {
+    id: 49,
+    url: "article-49.html",
+    flag: "🇨🇳",
+    country: "中国・江蘇省揚州",
+    region: "アジア",
+    dateLabel: "2025年5月13日",
+    dateISO: "2025-05-13",
+    title: "カピバラ3匹が"集団脱獄"——1匹は窓を頭突きで破壊、1匹は懸賞金付き指名手配へ",
+    description: "中国・揚州の景勝地で飼育されていたカピバラ3匹が脱走。首謀者は窓ガラスを頭で割り、1匹は川で発見、1匹は約1カ月後に確保、残る1匹「豆包」は懸賞金付きで捜索された。Global Times報道。",
+    excerpt: "温厚なはずのカピバラが窓を頭突きで割って脱走。1匹は懸賞金付きで指名手配——中国版プリズン・ブレイク。",
+    tags: [
+      { cls: "animals", label: "動物" },
+      { cls: "crime", label: "事件・珍事" }
+    ],
+    source: "Global Times",
+    sourceUrl: "https://www.globaltimes.cn/page/202505/1333957.shtml",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#E8F5E9"/>
+      <rect width="400" height="100" fill="#87CEEB"/>
+      <!-- 川 -->
+      <rect y="145" width="400" height="55" fill="#5B9BD5"/>
+      <!-- 施設（割れた窓） -->
+      <rect x="10" y="48" width="115" height="105" fill="#D4C5A0" stroke="#AAA" stroke-width="2"/>
+      <rect x="25" y="62" width="50" height="42" fill="#87CEEB" rx="2"/>
+      <line x1="25" y1="62" x2="75" y2="104" stroke="#888" stroke-width="1.5"/>
+      <line x1="75" y1="62" x2="25" y2="104" stroke="#888" stroke-width="1.5"/>
+      <polygon points="32,62 52,78 45,100 28,90" fill="#B8D8F0" opacity="0.5"/>
+      <text x="72" y="66" font-size="14">💥</text>
+      <!-- 脱出したカピバラ -->
+      <ellipse cx="195" cy="125" rx="52" ry="26" fill="#A0784A"/>
+      <ellipse cx="236" cy="108" rx="30" ry="21" fill="#A0784A"/>
+      <circle cx="248" cy="101" r="8" fill="#333"/>
+      <circle cx="250" cy="100" r="2" fill="white"/>
+      <ellipse cx="260" cy="113" rx="12" ry="7" fill="#8B5E2A"/>
+      <!-- 指名手配ポスター -->
+      <rect x="290" y="48" width="100" height="82" fill="#FFF8DC" rx="5" stroke="#8B4513" stroke-width="2"/>
+      <rect x="290" y="48" width="100" height="22" fill="#CC0000" rx="3"/>
+      <text x="340" y="63" text-anchor="middle" font-size="9" fill="white" font-weight="bold">⚠️ 指名手配</text>
+      <ellipse cx="340" cy="105" rx="30" ry="15" fill="#8B6535"/>
+      <ellipse cx="358" cy="96" rx="18" ry="13" fill="#8B6535"/>
+      <circle cx="368" cy="91" r="5" fill="#333"/>
+      <text x="340" y="133" text-anchor="middle" font-size="8" fill="#8B4513" font-weight="bold">「豆包」逃走中</text>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇨🇳 揚州「カピバラ集団脱獄」豆包は懸賞金付き指名手配</text>
+    </svg>`
+  },
+  {
+    id: 50,
+    url: "article-50.html",
+    flag: "🇮🇳",
+    country: "インド・グマタプラ",
+    region: "アジア",
+    dateLabel: "毎年10〜11月（ディワリ翌日）",
+    dateISO: "2025-10-24",
+    title: "ディワリの締めくくりは"牛ふん投げ"——南インドのゴレハッバ祭、見た目はラ・トマティーナの別世界版",
+    description: "南インドのグマタプラ村では、ディワリ翌日に「ゴレハッバ祭」を開催。参加者同士が牛ふんを投げ合い、豊穣・浄化・健康を祈願する。Al Jazeera・Reuters Connect報道。",
+    excerpt: "ディワリの翌日は牛ふん投げ祭り。インド農村版ラ・トマティーナ——見た目の破壊力と、神聖な意味が同居する。",
+    tags: [
+      { cls: "culture", label: "文化" },
+      { cls: "food", label: "食・農業" }
+    ],
+    source: "Al Jazeera / Reuters Connect",
+    sourceUrl: "https://www.aljazeera.com/video/newsfeed/2025/10/24/indian-village-celebrates-end-of-diwali-with-cow-dung-fight",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#F5E8C0"/>
+      <rect width="400" height="100" fill="#87CEEB"/>
+      <!-- ディワリの灯り -->
+      <circle cx="80" cy="70" r="4" fill="#FFD700" opacity="0.9"/>
+      <circle cx="150" cy="55" r="3" fill="#FF9900" opacity="0.9"/>
+      <circle cx="280" cy="60" r="4" fill="#FFD700" opacity="0.9"/>
+      <circle cx="330" cy="75" r="3" fill="#FF9900" opacity="0.9"/>
+      <!-- 地面 -->
+      <rect y="100" width="400" height="100" fill="#C4A850"/>
+      <!-- 牛ふんの山 -->
+      <ellipse cx="200" cy="148" rx="58" ry="28" fill="#6B4226"/>
+      <ellipse cx="200" cy="137" rx="46" ry="20" fill="#7A4D2E"/>
+      <ellipse cx="200" cy="128" rx="33" ry="14" fill="#8B5E3A"/>
+      <!-- 投げる人（左） -->
+      <circle cx="80" cy="115" r="14" fill="#C8A070"/>
+      <rect x="72" y="129" width="16" height="32" fill="#E67E22" rx="3"/>
+      <circle cx="108" cy="104" r="10" fill="#6B4226"/>
+      <line x1="88" y1="129" x2="106" y2="107" stroke="#C8A070" stroke-width="6" stroke-linecap="round"/>
+      <!-- 弾道 -->
+      <path d="M106,104 Q148,68 188,128" fill="none" stroke="#6B4226" stroke-width="2" stroke-dasharray="5,4" opacity="0.7"/>
+      <!-- 当たる人（右） -->
+      <circle cx="305" cy="112" r="14" fill="#D4B080"/>
+      <rect x="297" y="126" width="16" height="32" fill="#27AE60" rx="3"/>
+      <text x="305" y="119" text-anchor="middle" font-size="16">😂</text>
+      <!-- 比較ボックス -->
+      <rect x="318" y="42" width="75" height="52" fill="rgba(255,255,255,0.9)" rx="5" stroke="#888" stroke-width="1"/>
+      <text x="355" y="60" text-anchor="middle" font-size="8" fill="#333">スペイン🍅</text>
+      <text x="355" y="75" text-anchor="middle" font-size="8" fill="#333">インド💩</text>
+      <text x="355" y="88" text-anchor="middle" font-size="7" fill="#888">同じ発想？</text>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇮🇳 グマタプラ「ゴレハッバ祭」農村版ラ・トマティーナ</text>
+    </svg>`
+  },
+  {
+    id: 51,
+    url: "article-51.html",
+    flag: "🇵🇦",
+    country: "パナマ・ポルトベロ",
+    region: "カリブ海",
+    dateLabel: "2025年5月3日（毎年開催）",
+    dateISO: "2025-05-03",
+    title: "赤い悪魔と色鮮やかな奴隷役が街を練る——パナマ・ポルトベロ「悪魔とコンゴの祭り」",
+    description: "カリブ海沿いのポルトベロでは「Festival of Devils and Congos」が開催され、悪魔＝植民地支配者、コンゴ＝抵抗する被奴隷民を象徴する仮面と踊りの路上劇が繰り広げられる。AP News報道。",
+    excerpt: "赤い悪魔＝植民地者、カラフルなコンゴ＝抵抗する奴隷。300年前の歴史を毎年路上で再演するパナマの祭り。",
+    tags: [
+      { cls: "culture", label: "文化" },
+      { cls: "politics", label: "社会・政治" }
+    ],
+    source: "AP News / パナマ文化省",
+    sourceUrl: "https://apnews.com/article/panama-colonialism-devils-congos-dede36b10b0f9ee21807a4571dccfb27",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#2980B9"/>
+      <!-- 石畳 -->
+      <rect y="105" width="400" height="95" fill="#A09070"/>
+      <line x1="0" y1="125" x2="400" y2="125" stroke="#888" stroke-width="1"/>
+      <line x1="0" y1="150" x2="400" y2="150" stroke="#888" stroke-width="1"/>
+      <!-- 建物（背景） -->
+      <rect x="0" y="45" width="90" height="80" fill="#C8B080"/>
+      <rect x="310" y="40" width="90" height="85" fill="#C0A870"/>
+      <!-- 悪魔（赤い仮面・中央） -->
+      <rect x="175" y="98" width="30" height="60" fill="#CC0000" rx="4"/>
+      <ellipse cx="190" cy="92" rx="22" ry="20" fill="#CC0000"/>
+      <polygon points="178,80 168,60 184,72" fill="#AA0000"/>
+      <polygon points="202,80 212,60 196,72" fill="#AA0000"/>
+      <ellipse cx="182" cy="88" rx="5" ry="7" fill="yellow"/>
+      <circle cx="182" cy="89" r="2.5" fill="#333"/>
+      <ellipse cx="198" cy="88" rx="5" ry="7" fill="yellow"/>
+      <circle cx="198" cy="89" r="2.5" fill="#333"/>
+      <path d="M180,101 Q190,108 200,101" fill="white" stroke="white" stroke-width="1"/>
+      <!-- コンゴ（左・紫） -->
+      <ellipse cx="80" cy="90" rx="20" ry="18" fill="#9B59B6"/>
+      <rect x="68" y="108" width="24" height="55" fill="#F39C12" rx="4"/>
+      <circle cx="74" cy="86" r="4" fill="white"/>
+      <circle cx="86" cy="86" r="4" fill="white"/>
+      <circle cx="74" cy="86" r="2" fill="#333"/>
+      <circle cx="86" cy="86" r="2" fill="#333"/>
+      <line x1="80" y1="76" x2="72" y2="55" stroke="#E74C3C" stroke-width="3" stroke-linecap="round"/>
+      <line x1="80" y1="76" x2="86" y2="52" stroke="#3498DB" stroke-width="3" stroke-linecap="round"/>
+      <!-- コンゴ（右・赤） -->
+      <ellipse cx="295" cy="92" rx="20" ry="18" fill="#E74C3C"/>
+      <rect x="283" y="110" width="24" height="52" fill="#3498DB" rx="4"/>
+      <circle cx="289" cy="88" r="4" fill="white"/>
+      <circle cx="301" cy="88" r="4" fill="white"/>
+      <circle cx="289" cy="88" r="2" fill="#333"/>
+      <circle cx="301" cy="88" r="2" fill="#333"/>
+      <line x1="295" y1="78" x2="287" y2="57" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+      <line x1="295" y1="78" x2="302" y2="55" stroke="#9B59B6" stroke-width="3" stroke-linecap="round"/>
+      <!-- 解説 -->
+      <rect x="320" y="30" width="75" height="60" fill="rgba(0,0,0,0.65)" rx="5"/>
+      <text x="357" y="50" text-anchor="middle" font-size="7.5" fill="#FF9090">悪魔＝植民者</text>
+      <text x="357" y="63" text-anchor="middle" font-size="7.5" fill="#90EE90">コンゴ＝抵抗</text>
+      <text x="357" y="78" text-anchor="middle" font-size="7" fill="#FFD070">UNESCO候補</text>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇵🇦 ポルトベロ「悪魔とコンゴの祭り」笑えて重い路上劇</text>
+    </svg>`
+  },
+  {
+    id: 52,
+    url: "article-52.html",
+    flag: "🇳🇵",
+    country: "ネパール・カトマンズ",
+    region: "アジア",
+    dateLabel: "2025年9月30日",
+    dateISO: "2025-09-30",
+    title: "2歳8か月で"現人神"に就任——ネパールの新しい「生き神クマリ」、前職はただの幼児",
+    description: "ネパールでは2025年、2歳8か月の少女が新たな「クマリ（生き神）」に選ばれた。無傷の肌や歯、暗闇への無恐怖などの条件を満たし、神として神殿宮殿で暮らす。AP News報道。",
+    excerpt: "昨日まで家の子、今日から現人神。2歳8か月でキャリアチェンジした少女とネパール1000年の伝統。",
+    tags: [
+      { cls: "culture", label: "文化" },
+      { cls: "politics", label: "社会・政治" }
+    ],
+    source: "AP News",
+    sourceUrl: "https://apnews.com/article/nepal-festival-living-goddess-hindu-indra-jatra-2c38435573fb934dc10c5a9d1f4b6e99",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#F5E8D0"/>
+      <rect width="400" height="100" fill="#FFD080" opacity="0.55"/>
+      <!-- 神殿 -->
+      <rect x="100" y="38" width="200" height="158" fill="#C8A060"/>
+      <polygon points="78,56 200,12 322,56" fill="#8B3A20"/>
+      <rect x="100" y="56" width="200" height="14" fill="#6B2A10"/>
+      <!-- 窓 -->
+      <rect x="150" y="68" width="100" height="85" fill="#4A3010" rx="4"/>
+      <path d="M150,68 Q200,48 250,68" fill="#8B3A20"/>
+      <!-- 格子 -->
+      <line x1="162" y1="68" x2="162" y2="153" stroke="#6B4020" stroke-width="2.5"/>
+      <line x1="178" y1="68" x2="178" y2="153" stroke="#6B4020" stroke-width="2.5"/>
+      <line x1="194" y1="68" x2="194" y2="153" stroke="#6B4020" stroke-width="2.5"/>
+      <line x1="210" y1="68" x2="210" y2="153" stroke="#6B4020" stroke-width="2.5"/>
+      <line x1="226" y1="68" x2="226" y2="153" stroke="#6B4020" stroke-width="2.5"/>
+      <line x1="240" y1="68" x2="240" y2="153" stroke="#6B4020" stroke-width="2.5"/>
+      <line x1="150" y1="93" x2="250" y2="93" stroke="#6B4020" stroke-width="2.5"/>
+      <line x1="150" y1="118" x2="250" y2="118" stroke="#6B4020" stroke-width="2.5"/>
+      <line x1="150" y1="143" x2="250" y2="143" stroke="#6B4020" stroke-width="2.5"/>
+      <!-- クマリ（幼女・赤い衣装） -->
+      <rect x="180" y="95" width="40" height="58" fill="#CC0000" rx="3"/>
+      <circle cx="200" cy="87" r="17" fill="#F5DEB3"/>
+      <ellipse cx="200" cy="77" rx="8" ry="6" fill="#CC0000"/>
+      <ellipse cx="194" cy="87" rx="4" ry="5" fill="#1A1A1A"/>
+      <ellipse cx="206" cy="87" rx="4" ry="5" fill="#1A1A1A"/>
+      <ellipse cx="200" cy="96" rx="5" ry="3" fill="#CC0000"/>
+      <rect x="185" y="72" width="30" height="10" fill="#FFD700" rx="2"/>
+      <polygon points="192,72 194,61 199,72" fill="#FFD700"/>
+      <polygon points="200,72 202,59 207,72" fill="#FFD700"/>
+      <!-- 礼拝者（左） -->
+      <circle cx="62" cy="165" r="10" fill="#C8A070"/>
+      <path d="M48,173 Q32,185 30,198" stroke="#C8A070" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <path d="M72,173 Q77,185 80,197" stroke="#C8A070" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <!-- 礼拝者（右） -->
+      <circle cx="330" cy="163" r="10" fill="#D4B080"/>
+      <path d="M317,171 Q303,183 301,197" stroke="#D4B080" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <path d="M340,171 X345,183 347,195" stroke="#D4B080" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇳🇵 ネパール「クマリ」2歳8か月で現人神に就任 2025.9</text>
+    </svg>`
+  },
+  {
+    id: 53,
+    url: "article-53.html",
+    flag: "🇬🇭",
+    country: "ガーナ・アクラ",
+    region: "アフリカ",
+    dateLabel: "2025年9月13日（伝統は1950年代〜）",
+    dateISO: "2025-09-13",
+    title: "最後は魚、孔雀、飛行機になる——ガーナの"ファンタジー棺桶"文化があまりにも自由",
+    description: "ガーナでは人の職業や象徴に合わせて魚、飛行機、孔雀などの形をした棺桶で葬る文化がある。Gaの人々の間で広まり、今では国内外で芸術品としても注目されている。AP News報道。",
+    excerpt: "魚売りなら魚型、パイロットなら飛行機型、権力者なら孔雀型。人生の集大成を棺桶の形に込めるガーナの自由な文化。",
+    tags: [
+      { cls: "culture", label: "文化" },
+      { cls: "animals", label: "動物・自然" }
+    ],
+    source: "AP News / BBC Archive",
+    sourceUrl: "https://apnews.com/article/ghana-fantasy-coffins-funerals-accra-tradition-01220db5b2e240a12ae8e4ba8820f993",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#F5E8C0"/>
+      <rect width="400" height="100" fill="#87CEEB"/>
+      <!-- 地面 -->
+      <rect y="100" width="400" height="100" fill="#C4A850"/>
+      <!-- 魚型棺桶（左） -->
+      <ellipse cx="80" cy="148" rx="62" ry="26" fill="#2E86AB"/>
+      <polygon points="20,133 0,110 0,165" fill="#1A6B8A"/>
+      <circle cx="132" cy="142" r="6" fill="white" stroke="#1A6B8A" stroke-width="1.5"/>
+      <circle cx="132" cy="142" r="3" fill="#333"/>
+      <ellipse cx="75" cy="143" rx="10" ry="8" fill="none" stroke="#1A6B8A" stroke-width="1.5"/>
+      <ellipse cx="96" cy="140" rx="10" ry="8" fill="none" stroke="#1A6B8A" stroke-width="1.5"/>
+      <text x="80" y="185" text-anchor="middle" font-size="8" fill="#333" font-weight="bold">魚売り用</text>
+      <!-- 飛行機型棺桶（中央） -->
+      <rect x="155" y="135" width="118" height="34" fill="#E74C3C" rx="10"/>
+      <polygon points="175,135 164,107 232,135" fill="#CC3A2A"/>
+      <polygon points="175,169 164,196 232,169" fill="#CC3A2A"/>
+      <polygon points="273,142 295,127 273,155" fill="#CC3A2A"/>
+      <circle cx="182" cy="152" r="5" fill="#B8D8F0" stroke="white" stroke-width="1"/>
+      <circle cx="200" cy="152" r="5" fill="#B8D8F0" stroke="white" stroke-width="1"/>
+      <circle cx="218" cy="152" r="5" fill="#B8D8F0" stroke="white" stroke-width="1"/>
+      <circle cx="236" cy="152" r="5" fill="#B8D8F0" stroke="white" stroke-width="1"/>
+      <text x="213" y="188" text-anchor="middle" font-size="8" fill="#333" font-weight="bold">校長用</text>
+      <!-- 孔雀型棺桶（右） -->
+      <ellipse cx="348" cy="150" rx="42" ry="26" fill="#27AE60"/>
+      <path d="M372,136 Q385,118 393,122 Q396,130 389,137 Q381,141 372,144" fill="#27AE60" stroke="#1A8A4A" stroke-width="1.5"/>
+      <circle cx="393" cy="120" r="7" fill="#27AE60"/>
+      <!-- 羽根 -->
+      <line x1="308" y1="140" x2="283" y2="110" stroke="#3498DB" stroke-width="4" stroke-linecap="round"/>
+      <line x1="316" y1="130" x2="297" y2="100" stroke="#9B59B6" stroke-width="4" stroke-linecap="round"/>
+      <line x1="326" y1="122" x2="314" y2="90" stroke="#E74C3C" stroke-width="4" stroke-linecap="round"/>
+      <line x1="338" y1="118" x2="332" y2="86" stroke="#F39C12" stroke-width="4" stroke-linecap="round"/>
+      <text x="348" y="185" text-anchor="middle" font-size="8" fill="#333" font-weight="bold">名士用</text>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇬🇭 ガーナ「ファンタジー棺桶」人生の最終プレゼン</text>
+    </svg>`
   }
 ];
 
