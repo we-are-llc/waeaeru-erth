@@ -24,7 +24,7 @@
       : null;
   if (!article) return;
 
-  var SITE_URL  = "https://waraeru-erth.wa-re.net"; // ← 本番ドメインに変更してください
+  var SITE_URL  = "https://waraeru-earth.we-re.net";
   var SITE_NAME = "笑える地球";
   var pageUrl   = SITE_URL + "/" + article.url;
   var pageTitle = article.title + " | " + SITE_NAME;
