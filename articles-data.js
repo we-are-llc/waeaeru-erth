@@ -2862,6 +2862,323 @@ const ARTICLES_DATA = [
       <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
       <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇬🇭 ガーナ「ファンタジー棺桶」人生の最終プレゼン</text>
     </svg>`
+  },
+  {
+    id: 54,
+    url: "article-54.html",
+    flag: "🇹🇿",
+    country: "タンザニア・ザンジバル",
+    region: "アフリカ",
+    dateLabel: "2021年6月9日",
+    dateISO: "2021-06-09",
+    title: "スパイスの香りが濃すぎて帰り道が分からない——ザンジバルの市場では迷子になるのが名物",
+    description: "ザンジバルのスパイス市場では、クローブやシナモンの香りが濃すぎて嗅覚が混乱し、方向感覚を失う観光客が後を絶たない。Travel Africa報道。",
+    excerpt: "クローブ・シナモン・カルダモンが密集する市場で嗅覚がオーバーロード。帰り道が分からなくなる観光客が続出。",
+    tags: [
+      { cls: "culture", label: "文化" },
+      { cls: "weird", label: "不思議" }
+    ],
+    source: "Travel Africa",
+    sourceUrl: "https://travelafrica.com/",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#F5E8C0"/>
+      <rect width="400" height="80" fill="#87CEEB"/>
+      <!-- 左屋台 -->
+      <rect x="0" y="80" width="115" height="115" fill="#D4A860"/>
+      <polygon points="0,80 60,45 120,80" fill="#E74C3C"/>
+      <!-- スパイス（左） -->
+      <ellipse cx="38" cy="155" rx="35" ry="14" fill="#E67E22"/>
+      <ellipse cx="85" cy="158" rx="30" ry="13" fill="#C8A050"/>
+      <!-- 中央屋台 -->
+      <rect x="135" y="80" width="130" height="115" fill="#C8A060"/>
+      <polygon points="120,80 200,40 280,80" fill="#27AE60"/>
+      <!-- スパイス（中央） -->
+      <ellipse cx="165" cy="152" rx="28" ry="12" fill="#CC0000"/>
+      <ellipse cx="200" cy="148" rx="26" ry="11" fill="#FFD700"/>
+      <ellipse cx="238" cy="154" rx="28" ry="12" fill="#8B4513"/>
+      <!-- 右屋台 -->
+      <rect x="285" y="80" width="115" height="115" fill="#D4B870"/>
+      <polygon points="278,80 342,44 405,80" fill="#9B59B6"/>
+      <!-- スパイス（右） -->
+      <ellipse cx="320" cy="155" rx="30" ry="13" fill="#2E8B57"/>
+      <ellipse cx="370" cy="152" rx="28" ry="12" fill="#FF8C00"/>
+      <!-- 迷子の観光客（中央） -->
+      <circle cx="200" cy="108" r="14" fill="#F5DEB3"/>
+      <text x="200" y="114" text-anchor="middle" font-size="14">😵</text>
+      <rect x="192" y="122" width="16" height="28" fill="#3498DB" rx="3"/>
+      <!-- ？マーク -->
+      <text x="165" y="98" font-size="16" fill="#E74C3C" font-weight="bold">?</text>
+      <text x="228" y="92" font-size="14" fill="#E74C3C" font-weight="bold">?</text>
+      <text x="178" y="86" font-size="15" fill="#E74C3C" font-weight="bold">?</text>
+      <!-- 香りの波 -->
+      <path d="M100,135 Q120,118 140,135 Q160,152 180,135" fill="none" stroke="#FF8C00" stroke-width="1.5" opacity="0.6" stroke-linecap="round"/>
+      <path d="M218,138 Q238,120 258,138 Q278,156 298,138" fill="none" stroke="#CC0000" stroke-width="1.5" opacity="0.6" stroke-linecap="round"/>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇹🇿 ザンジバル スパイス市場——香りで迷子になる観光客</text>
+    </svg>`
+  },
+  {
+    id: 55,
+    url: "article-55.html",
+    flag: "🇨🇺",
+    country: "キューバ・ハバナ",
+    region: "カリブ海",
+    dateLabel: "2017年3月18日",
+    dateISO: "2017-03-18",
+    title: "停電が生んだ名物料理——キューバでは冷蔵庫なし時代の保存技術が観光グルメになった",
+    description: "電力不足の歴史から、キューバでは肉をスパイスや塩で長期保存する独自の調理法が発展し、観光名物となっている。BBC Travel報道。",
+    excerpt: "冷蔵庫が使えない時代の工夫が、今では観光客が求める本物のキューバ料理に。制約が文化を磨いた逆転劇。",
+    tags: [
+      { cls: "culture", label: "文化" },
+      { cls: "food", label: "料理" }
+    ],
+    source: "BBC Travel",
+    sourceUrl: "https://www.bbc.com/travel",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#87CEEB"/>
+      <!-- カラフルなキューバの建物 -->
+      <rect x="0" y="65" width="110" height="135" fill="#F4D03F"/>
+      <rect x="110" y="52" width="95" height="148" fill="#E8A87C"/>
+      <rect x="205" y="60" width="100" height="140" fill="#85C1E9"/>
+      <rect x="305" y="55" width="95" height="145" fill="#A9DFBF"/>
+      <!-- 窓 -->
+      <rect x="15" y="82" width="25" height="35" fill="#BDC3C7" rx="2"/>
+      <rect x="60" y="82" width="25" height="35" fill="#BDC3C7" rx="2"/>
+      <rect x="125" y="75" width="25" height="32" fill="#BDC3C7" rx="2"/>
+      <!-- 地面 -->
+      <rect y="170" width="400" height="30" fill="#A0522D"/>
+      <!-- クラシックカー -->
+      <rect x="15" y="148" width="90" height="28" fill="#E74C3C" rx="6"/>
+      <rect x="30" y="138" width="65" height="16" fill="#C0392B" rx="4"/>
+      <circle cx="30" cy="178" r="10" fill="#2C3E50"/>
+      <circle cx="30" cy="178" r="5" fill="#95A5A6"/>
+      <circle cx="90" cy="178" r="10" fill="#2C3E50"/>
+      <circle cx="90" cy="178" r="5" fill="#95A5A6"/>
+      <!-- 空の冷蔵庫（中央） -->
+      <rect x="165" y="95" width="70" height="95" fill="#ECF0F1" stroke="#BDC3C7" stroke-width="1.5" rx="4"/>
+      <rect x="167" y="97" width="66" height="90" fill="#D6EAF8" rx="3"/>
+      <text x="200" y="148" text-anchor="middle" font-size="16">❌</text>
+      <text x="200" y="165" text-anchor="middle" font-size="7" fill="#7F8C8D">空っぽ</text>
+      <text x="200" y="118" text-anchor="middle" font-size="13">⚡</text>
+      <text x="200" y="132" text-anchor="middle" font-size="7" fill="#E67E22">停電中</text>
+      <!-- 吊るし保存食（右） -->
+      <line x1="325" y1="68" x2="298" y2="115" stroke="#8B4513" stroke-width="2"/>
+      <line x1="325" y1="68" x2="325" y2="118" stroke="#8B4513" stroke-width="2"/>
+      <line x1="325" y1="68" x2="352" y2="113" stroke="#8B4513" stroke-width="2"/>
+      <rect x="282" y="115" width="22" height="40" fill="#C0392B" rx="3"/>
+      <rect x="313" y="118" width="20" height="36" fill="#A93226" rx="3"/>
+      <rect x="342" y="113" width="22" height="42" fill="#C0392B" rx="3"/>
+      <text x="325" y="168" text-anchor="middle" font-size="7" fill="#333" font-weight="bold">塩漬け保存</text>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇨🇺 キューバ——停電が生んだ保存食が観光名物に</text>
+    </svg>`
+  },
+  {
+    id: 56,
+    url: "article-56.html",
+    flag: "🇱🇦",
+    country: "ラオス・ボラベン高原",
+    region: "アジア",
+    dateLabel: "2020年11月10日",
+    dateISO: "2020-11-10",
+    title: "一杯で翌朝まで眠れない——ラオス・ボラベン高原のローカルコーヒーが観光客の睡眠を破壊する",
+    description: "ラオスの高原地帯で飲まれている伝統的コーヒーが非常に濃く、観光客が眠れなくなるケースが話題に。Lonely Planet報道。",
+    excerpt: "ロブスタ種、カフェイン2倍、コンデンスミルクで甘さに隠れている。飲んでから気づく系の凶悪コーヒー。",
+    tags: [
+      { cls: "culture", label: "文化" },
+      { cls: "food", label: "料理" }
+    ],
+    source: "Lonely Planet",
+    sourceUrl: "https://www.lonelyplanet.com/",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <!-- 夜空 -->
+      <rect width="400" height="200" fill="#1A1A3E"/>
+      <!-- 星 -->
+      <circle cx="30" cy="22" r="1.5" fill="white" opacity="0.9"/>
+      <circle cx="85" cy="38" r="1.5" fill="white" opacity="0.7"/>
+      <circle cx="160" cy="18" r="2" fill="white" opacity="0.8"/>
+      <circle cx="290" cy="30" r="1.5" fill="white" opacity="0.7"/>
+      <circle cx="355" cy="20" r="2" fill="white" opacity="0.9"/>
+      <!-- 月 -->
+      <circle cx="355" cy="50" r="22" fill="#FFE8A0"/>
+      <circle cx="368" cy="43" r="19" fill="#1A1A3E"/>
+      <!-- 高原の丘 -->
+      <ellipse cx="0" cy="175" rx="120" ry="50" fill="#2D5A1B"/>
+      <ellipse cx="150" cy="182" rx="130" ry="52" fill="#3A7A25"/>
+      <ellipse cx="350" cy="178" rx="130" ry="50" fill="#2D5A1B"/>
+      <!-- 大きなコーヒーカップ（中央） -->
+      <rect x="145" y="88" width="110" height="88" fill="#2C1A0E" rx="5"/>
+      <ellipse cx="200" cy="88" rx="55" ry="12" fill="#3D2410"/>
+      <ellipse cx="200" cy="91" rx="48" ry="9" fill="#0A0604"/>
+      <!-- 湯気 -->
+      <path d="M173,86 Q166,68 174,56" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="4" stroke-linecap="round"/>
+      <path d="M200,84 Q193,65 201,53" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="4" stroke-linecap="round"/>
+      <path d="M227,86 Q222,67 229,55" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="4" stroke-linecap="round"/>
+      <!-- ラベル -->
+      <rect x="158" y="140" width="84" height="28" fill="#8B4513" rx="3"/>
+      <text x="200" y="152" text-anchor="middle" font-size="8" fill="#FFD700" font-weight="bold">COFFEE LAO</text>
+      <text x="200" y="163" text-anchor="middle" font-size="7" fill="#FFE">ボラベン高原産</text>
+      <!-- 不眠の観光客（右） -->
+      <circle cx="328" cy="130" r="16" fill="#F5DEB3"/>
+      <ellipse cx="322" cy="127" rx="5" ry="6" fill="white"/>
+      <ellipse cx="334" cy="127" rx="5" ry="6" fill="white"/>
+      <circle cx="322" cy="128" r="3" fill="#333"/>
+      <circle cx="334" cy="128" r="3" fill="#333"/>
+      <!-- ベッドに横になって目だけ開いてる -->
+      <rect x="298" y="155" width="60" height="35" fill="#8B4513" rx="3"/>
+      <rect x="300" y="153" width="56" height="14" fill="#C8A060" rx="2"/>
+      <rect x="302" y="160" width="52" height="28" fill="#F5F5F0" rx="2"/>
+      <circle cx="328" cy="165" r="12" fill="#F5DEB3"/>
+      <ellipse cx="323" cy="162" rx="4" ry="5" fill="white"/>
+      <ellipse cx="333" cy="162" rx="4" ry="5" fill="white"/>
+      <circle cx="323" cy="163" r="2.5" fill="#333"/>
+      <circle cx="333" cy="163" r="2.5" fill="#333"/>
+      <!-- 時計 -->
+      <circle cx="328" cy="108" r="14" fill="white" stroke="#333" stroke-width="2"/>
+      <line x1="328" y1="108" x2="328" y2="98" stroke="#333" stroke-width="2"/>
+      <line x1="328" y1="108" x2="336" y2="113" stroke="#333" stroke-width="1.5"/>
+      <text x="328" y="126" text-anchor="middle" font-size="6" fill="#E74C3C" font-weight="bold">午前3時</text>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇱🇦 ラオス・ボラベン——一杯で翌朝まで眠れないコーヒー</text>
+    </svg>`
+  },
+  {
+    id: 57,
+    url: "article-57.html",
+    flag: "🇵🇪",
+    country: "ペルー・プーノ",
+    region: "中南米",
+    dateLabel: "2018年5月2日",
+    dateISO: "2018-05-02",
+    title: "何分茹でても半熟のまま——標高3800mのペルー・プーノでは、ゆで卵がゆで卵にならない",
+    description: "ペルー高地では標高の影響で水の沸点が下がり、卵や肉が普通に調理できない問題が知られている。National Geographic掲載。",
+    excerpt: "標高3827m、水の沸点87°C。30分茹でても固まらない卵——アンデス高地では物理の法則が料理を支配する。",
+    tags: [
+      { cls: "culture", label: "文化" },
+      { cls: "science", label: "科学" }
+    ],
+    source: "National Geographic",
+    sourceUrl: "https://www.nationalgeographic.com/",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#87CEEB"/>
+      <!-- アンデスの山々 -->
+      <polygon points="0,120 60,55 120,120" fill="#8B7355"/>
+      <polygon points="50,120 130,48 210,120" fill="#A09070"/>
+      <polygon points="155,120 245,42 335,120" fill="#8B7355"/>
+      <polygon points="290,120 370,58 450,120" fill="#9A8565"/>
+      <!-- 雪 -->
+      <polygon points="60,55 78,70 42,70" fill="white"/>
+      <polygon points="130,48 152,68 108,68" fill="white"/>
+      <polygon points="245,42 270,65 220,65" fill="white"/>
+      <!-- 地面 -->
+      <rect y="120" width="400" height="80" fill="#C4A850"/>
+      <!-- 鍋（中央） -->
+      <ellipse cx="175" cy="155" rx="55" ry="13" fill="#777"/>
+      <rect x="120" y="143" width="110" height="55" fill="#888" rx="4"/>
+      <ellipse cx="175" cy="143" rx="55" ry="13" fill="#AAA"/>
+      <ellipse cx="175" cy="147" rx="48" ry="9" fill="#B8D8E8"/>
+      <!-- 泡（沸騰） -->
+      <circle cx="155" cy="143" r="4" fill="white" opacity="0.7"/>
+      <circle cx="185" cy="141" r="3" fill="white" opacity="0.7"/>
+      <circle cx="200" cy="144" r="4" fill="white" opacity="0.6"/>
+      <!-- 湯気 -->
+      <path d="M155,142 Q148,128 155,120" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M175,140 Q168,125 175,117" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M195,142 Q190,127 196,119" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="3" stroke-linecap="round"/>
+      <!-- 卵（半熟） -->
+      <ellipse cx="175" cy="150" rx="22" ry="14" fill="white"/>
+      <circle cx="175" cy="151" r="9" fill="#FFD700" opacity="0.6"/>
+      <circle cx="175" cy="151" r="5" fill="#FF9900" opacity="0.5"/>
+      <text x="175" y="170" text-anchor="middle" font-size="7" fill="#333" font-weight="bold">30分後も半熟</text>
+      <!-- 標高・沸点パネル -->
+      <rect x="258" y="118" width="130" height="72" fill="rgba(255,255,255,0.92)" rx="6" stroke="#888" stroke-width="1.5"/>
+      <text x="323" y="135" text-anchor="middle" font-size="9" fill="#333" font-weight="bold">標高 3,827m</text>
+      <text x="323" y="150" text-anchor="middle" font-size="9" fill="#666">水の沸点</text>
+      <text x="323" y="166" text-anchor="middle" font-size="16" fill="#E74C3C" font-weight="bold">87°C</text>
+      <text x="323" y="182" text-anchor="middle" font-size="7" fill="#888">（海面比 −13°C）</text>
+      <!-- 困り顔のコック -->
+      <circle cx="72" cy="140" r="14" fill="#C8A070"/>
+      <text x="72" y="146" text-anchor="middle" font-size="14">🤔</text>
+      <rect x="62" y="154" width="20" height="32" fill="#FFFFFF" rx="3"/>
+      <rect x="60" y="140" width="24" height="16" fill="white" rx="2"/>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇵🇪 ペルー・プーノ 標高3827m——卵が固まらない町</text>
+    </svg>`
+  },
+  {
+    id: 58,
+    url: "article-58.html",
+    flag: "🇬🇭",
+    country: "ガーナ・アシャンティ地方",
+    region: "アフリカ",
+    dateLabel: "2019年8月14日",
+    dateISO: "2019-08-14",
+    title: "ヤギに返り討ち——ガーナでヤギを盗もうとした男、激しく反撃されその場で村人に確保される",
+    description: "ガーナで家畜を盗もうとした泥棒がヤギに激しく反撃され転倒し、そのまま村人に取り押さえられた。GhanaWeb報道。",
+    excerpt: "ヤギを盗もうとした泥棒が逆にボコボコにされ逃走失敗。村人が駆けつけ確保。ヤギが地域の英雄に。",
+    tags: [
+      { cls: "animals", label: "動物" },
+      { cls: "crime", label: "事件・珍事" }
+    ],
+    source: "GhanaWeb",
+    sourceUrl: "https://www.ghanaweb.com/",
+    thumbSvg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <!-- 夜の村 -->
+      <rect width="400" height="200" fill="#1C2E1C"/>
+      <rect width="400" height="100" fill="#0D1B2A"/>
+      <!-- 月 -->
+      <circle cx="348" cy="42" r="22" fill="#FFE8A0"/>
+      <circle cx="360" cy="36" r="18" fill="#0D1B2A"/>
+      <!-- 星 -->
+      <circle cx="40" cy="22" r="1.5" fill="white" opacity="0.8"/>
+      <circle cx="110" cy="38" r="1.5" fill="white" opacity="0.7"/>
+      <circle cx="200" cy="18" r="2" fill="white" opacity="0.8"/>
+      <circle cx="270" cy="42" r="1.5" fill="white" opacity="0.7"/>
+      <!-- 地面 -->
+      <rect y="100" width="400" height="100" fill="#3A5A20"/>
+      <!-- 柵 -->
+      <rect x="10" y="95" width="6" height="55" fill="#8B6914"/>
+      <rect x="68" y="95" width="6" height="55" fill="#8B6914"/>
+      <rect x="8" y="110" width="68" height="6" fill="#8B6914"/>
+      <rect x="8" y="132" width="68" height="6" fill="#8B6914"/>
+      <!-- ヤギ（突進） -->
+      <ellipse cx="178" cy="148" rx="45" ry="25" fill="#D4C0A0"/>
+      <ellipse cx="214" cy="130" rx="28" ry="22" fill="#D4C0A0"/>
+      <circle cx="232" cy="122" r="15" fill="#C8B090"/>
+      <!-- 角 -->
+      <path d="M227,112 Q218,96 223,87" fill="none" stroke="#8B7355" stroke-width="5" stroke-linecap="round"/>
+      <path d="M237,110 Q246,95 240,86" fill="none" stroke="#8B7355" stroke-width="5" stroke-linecap="round"/>
+      <!-- ヤギの目（怒り） -->
+      <circle cx="237" cy="120" r="4" fill="#FFD700"/>
+      <circle cx="237" cy="120" r="2" fill="#333"/>
+      <!-- 突進エフェクト -->
+      <line x1="115" y1="140" x2="148" y2="140" stroke="#FF6600" stroke-width="2.5" opacity="0.8"/>
+      <line x1="118" y1="148" x2="152" y2="148" stroke="#FF6600" stroke-width="2" opacity="0.6"/>
+      <!-- 衝突 -->
+      <text x="270" y="130" font-size="22" text-anchor="middle">💥</text>
+      <!-- 泥棒（倒れている） -->
+      <circle cx="318" cy="135" r="14" fill="#C8A070"/>
+      <text x="318" y="140" text-anchor="middle" font-size="14">😵</text>
+      <rect x="292" y="152" width="52" height="15" fill="#3A5A20" rx="4" transform="rotate(-20 318 159)"/>
+      <!-- めまいの星 -->
+      <text x="300" y="118" font-size="12">⭐</text>
+      <text x="330" y="113" font-size="10">⭐</text>
+      <!-- 笑う村人 -->
+      <circle cx="370" cy="148" r="12" fill="#D4A070"/>
+      <text x="370" y="153" text-anchor="middle" font-size="12">😂</text>
+      <rect x="362" y="160" width="16" height="30" fill="#E74C3C" rx="2"/>
+      <!-- 吹き出し -->
+      <rect x="240" y="82" width="85" height="28" fill="white" rx="6" stroke="#888" stroke-width="1"/>
+      <polygon points="255,110 265,122 275,110" fill="white" stroke="#888" stroke-width="1"/>
+      <text x="282" y="96" text-anchor="middle" font-size="8" fill="#333" font-weight="bold">なめんなよ 🐐</text>
+      <!-- ラベル -->
+      <rect y="177" width="400" height="23" fill="rgba(0,0,0,0.7)"/>
+      <text x="200" y="192" text-anchor="middle" font-size="8.5" fill="#FFD070" font-weight="bold">🇬🇭 ガーナ「ヤギに返り討ち」泥棒が村の笑い話に 2019</text>
+    </svg>`
   }
 ];
 

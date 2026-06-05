@@ -438,4 +438,44 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- 記事54: タンザニア ザンジバル スパイス市場 -->
+  <url>
+    <loc>https://waraeru-earth.we-re.net/article-54.html</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事55: キューバ ハバナ 停電が生んだ保存料理 -->
+  <url>
+    <loc>https://waraeru-earth.we-re.net/article-55.html</loc>
+    <lastmod>2017-03-18</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事56: ラオス ボラベン高原 眠れないコーヒー -->
+  <url>
+    <loc>https://waraeru-earth.we-re.net/article-56.html</loc>
+    <lastmod>2020-11-10</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事57: ペルー プーノ 標高でゆで卵が固まらない -->
+  <url>
+    <loc>https://waraeru-earth.we-re.net/article-57.html</loc>
+    <lastmod>2018-05-02</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 記事58: ガーナ アシャンティ ヤギに返り討ち -->
+  <url>
+    <loc>https://waraeru-earth.we-re.net/article-58.html</loc>
+    <lastmod>2019-08-14</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
